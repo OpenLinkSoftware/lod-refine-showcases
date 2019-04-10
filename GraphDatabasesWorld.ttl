@@ -1,0 +1,1249 @@
+@prefix schema: <http://schema.org/> .
+@prefix software: <http://www.openlinksw.com/ontology/software#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+
+<https://www.7vortex.com#this> a schema:Organization ;
+	schema:name "7vortex" .
+
+<https://www.7vortex.com#app> schema:creator <https://www.7vortex.com#this> .
+
+<#a768caa988605a2846599cf7e2d0c26a> schema:name "Analytics" .
+
+<https://www.7vortex.com#app> schema:category <#a768caa988605a2846599cf7e2d0c26a> .
+
+<#091fa9121c047db1dd48c3e2ab5f3c91> schema:name "Machine Learning" .
+
+<https://www.7vortex.com#app> schema:category <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.7vortex.com/> .
+
+<https://www.ayasdi.com#this> a schema:Organization ;
+	schema:name "Ayasdi" .
+
+<https://www.ayasdi.com#app> schema:creator <https://www.ayasdi.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.ayasdi.com/> .
+
+<https://www.datachemist.com#this> a schema:Organization ;
+	schema:name "DataChemist" .
+
+<https://www.datachemist.com#app> schema:creator <https://www.datachemist.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.datachemist.com/> .
+
+<https://www.datameer.com#this> a schema:Organization ;
+	schema:name "Datameer" .
+
+<https://www.datameer.com#app> schema:creator <https://www.datameer.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.datameer.com/> .
+
+<https://emcien.com#this> a schema:Organization ;
+	schema:name "Emicien" .
+
+<https://emcien.com#app> schema:creator <https://emcien.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://emcien.com/> .
+
+<https://www.experoinc.com#this> a schema:Organization ;
+	schema:name "Expero" .
+
+<https://www.experoinc.com#app> schema:creator <https://www.experoinc.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.experoinc.com/> .
+
+<https://factgem.com#this> a schema:Organization ;
+	schema:name "FactGem" .
+
+<https://factgem.com#app> schema:creator <https://factgem.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://factgem.com/> .
+
+<https://www.governorsoftware.com#this> a schema:Organization ;
+	schema:name "Governor" .
+
+<https://www.governorsoftware.com#app> schema:creator <https://www.governorsoftware.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.governorsoftware.com/> .
+
+<https://graphlytic.biz#this> a schema:Organization ;
+	schema:name "Graphlytic" .
+
+<https://graphlytic.biz#app> schema:creator <https://graphlytic.biz#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://graphlytic.biz/> .
+
+<http://hubscope.com#this> a schema:Organization ;
+	schema:name "Hubscope" .
+
+<http://hubscope.com#app> schema:creator <http://hubscope.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <http://hubscope.com/> .
+
+<http://innointel.com#this> a schema:Organization ;
+	schema:name "Innointel" .
+
+<http://innointel.com#app> schema:creator <http://innointel.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <http://innointel.com/> .
+
+<https://www.intelligenttag.com#this> a schema:Organization ;
+	schema:name "intelligentTag" .
+
+<https://www.intelligenttag.com#app> schema:creator <https://www.intelligenttag.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.intelligenttag.com/> .
+
+<https://www.intellipeaksolutions.com#this> a schema:Organization ;
+	schema:name "IntelliPeak Solutions, Inc." .
+
+<https://www.intellipeaksolutions.com#app> schema:creator <https://www.intellipeaksolutions.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.intellipeaksolutions.com/> .
+
+<https://www.kernix.com#this> a schema:Organization ;
+	schema:name "Kernix" .
+
+<https://www.kernix.com#app> schema:creator <https://www.kernix.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.kernix.com/> .
+
+<https://www.millersoft.ltd.uk#this> a schema:Organization ;
+	schema:name "Millersoft" .
+
+<https://www.millersoft.ltd.uk#app> schema:creator <https://www.millersoft.ltd.uk#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.millersoft.ltd.uk/> .
+
+<https://muutto.de#this> a schema:Organization ;
+	schema:name "muutto®" .
+
+<https://muutto.de#app> schema:creator <https://muutto.de#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://muutto.de/> .
+
+<http://palantir.com#this> a schema:Organization ;
+	schema:name "Palantir" .
+
+<http://palantir.com#app> schema:creator <http://palantir.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <http://palantir.com/> .
+
+<https://www.paterva.com/#this> a schema:Organization ;
+	schema:name "Paterva" .
+
+<https://www.paterva.com/#app> schema:creator <https://www.paterva.com/#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.paterva.com//> .
+
+<https://www.ponderasolutions.com#this> a schema:Organization ;
+	schema:name "Pondera Solutions" .
+
+<https://www.ponderasolutions.com#app> schema:creator <https://www.ponderasolutions.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://www.ponderasolutions.com/> .
+
+<http://www.semspect.de#this> a schema:Organization ;
+	schema:name "SemSpect" .
+
+<http://www.semspect.de#app> schema:creator <http://www.semspect.de#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <http://www.semspect.de/> .
+
+<http://www.sqhtech.com/#this> a schema:Organization ;
+	schema:name "SQH Tech" .
+
+<http://www.sqhtech.com/#app> schema:creator <http://www.sqhtech.com/#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <http://www.sqhtech.com//> .
+
+<https://talkingraph.com/en-EN.html#this> a schema:Organization ;
+	schema:name "TalkingGraph" .
+
+<https://talkingraph.com/en-EN.html#app> schema:creator <https://talkingraph.com/en-EN.html#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#091fa9121c047db1dd48c3e2ab5f3c91> ;
+	schema:mainEntityOfPage <https://talkingraph.com/en-EN.html/> .
+
+<https://franz.com/agraph/allegrograph/#this> a schema:Organization ;
+	schema:name "AllegroGraph" .
+
+<https://franz.com/agraph/allegrograph/#app> schema:creator <https://franz.com/agraph/allegrograph/#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> .
+
+<#e4d054a006e3aeb52331ebd7686910e9> schema:name "Knowledge Graph Solutions" .
+
+<https://franz.com/agraph/allegrograph/#app> schema:category <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <https://franz.com/agraph/allegrograph//> .
+
+<http://cayley.io#this> a schema:Organization ;
+	schema:name "Cayley" .
+
+<http://cayley.io#app> schema:creator <http://cayley.io#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <http://cayley.io/> .
+
+<https://cleargraph.io#this> a schema:Organization ;
+	schema:name "ClearGraph" .
+
+<https://cleargraph.io#app> schema:creator <https://cleargraph.io#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <https://cleargraph.io/> .
+
+<http://gra.fo#this> a schema:Organization ;
+	schema:name "Grafo" .
+
+<http://gra.fo#app> schema:creator <http://gra.fo#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <http://gra.fo/> .
+
+<http://grakn.ai#this> a schema:Organization ;
+	schema:name "GRAKN.AI" .
+
+<http://grakn.ai#app> schema:creator <http://grakn.ai#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <http://grakn.ai/> .
+
+<http://hume.ga#this> a schema:Organization ;
+	schema:name "Hume" .
+
+<http://hume.ga#app> schema:creator <http://hume.ga#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <http://hume.ga/> .
+
+<http://poolparty.biz#this> a schema:Organization ;
+	schema:name "PoolParty" .
+
+<http://poolparty.biz#app> schema:creator <http://poolparty.biz#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <http://poolparty.biz/> .
+
+<http://stardog.com#this> a schema:Organization ;
+	schema:name "Stardog" .
+
+<http://stardog.com#app> schema:creator <http://stardog.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <http://stardog.com/> .
+
+<https://unigraph.io#this> a schema:Organization ;
+	schema:name "UniGraph.io" .
+
+<https://unigraph.io#app> schema:creator <https://unigraph.io#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#e4d054a006e3aeb52331ebd7686910e9> ;
+	schema:mainEntityOfPage <https://unigraph.io/> .
+
+<#http%3A%2F%2Fgraphalchemist.github.io%2FAlchemy%2F%23%2F%23this> a schema:Organization ;
+	schema:name "Alchemy.js" .
+
+<#http%3A%2F%2Fgraphalchemist.github.io%2FAlchemy%2F%23%2F%23app> schema:creator <#http%3A%2F%2Fgraphalchemist.github.io%2FAlchemy%2F%23%2F%23this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> .
+
+<#cf8615b1133b2d4a59af9c030e66a114> schema:name "Visualisation" .
+
+<#http%3A%2F%2Fgraphalchemist.github.io%2FAlchemy%2F%23%2F%23app> schema:category <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <http://graphalchemist.github.io/Alchemy/#//> .
+
+<https://arcadeanalytics.com#this> a schema:Organization ;
+	schema:name "Arcade Analytics" .
+
+<https://arcadeanalytics.com#app> schema:creator <https://arcadeanalytics.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://arcadeanalytics.com/> .
+
+<https://cytoscape.org#this> a schema:Organization ;
+	schema:name "Cytoscape" .
+
+<https://cytoscape.org#app> schema:creator <https://cytoscape.org#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://cytoscape.org/> .
+
+<https://d3js.org#this> a schema:Organization ;
+	schema:name "D3.js" .
+
+<https://d3js.org#app> schema:creator <https://d3js.org#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://d3js.org/> .
+
+<https://gephi.org#this> a schema:Organization ;
+	schema:name "Gephi" .
+
+<https://gephi.org#app> schema:creator <https://gephi.org#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://gephi.org/> .
+
+<https://www.graphistry.com/#this> a schema:Organization ;
+	schema:name "Graphistry" .
+
+<https://www.graphistry.com/#app> schema:creator <https://www.graphistry.com/#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://www.graphistry.com//> .
+
+<https://cambridge-intelligence.com/keylines/#this> a schema:Organization ;
+	schema:name "KeyLines" .
+
+<https://cambridge-intelligence.com/keylines/#app> schema:creator <https://cambridge-intelligence.com/keylines/#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://cambridge-intelligence.com/keylines//> .
+
+<https://www.kineviz.com/graphxr/#this> a schema:Organization ;
+	schema:name "Kineviz" .
+
+<https://www.kineviz.com/graphxr/#app> schema:creator <https://www.kineviz.com/graphxr/#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://www.kineviz.com/graphxr//> .
+
+<http://linkurio.us#this> a schema:Organization ;
+	schema:name "Linkurious" .
+
+<http://linkurio.us#app> schema:creator <http://linkurio.us#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <http://linkurio.us/> .
+
+<https://neo4j.com/bloom/#this> a schema:Organization ;
+	schema:name "Neo4j Bloom" .
+
+<https://neo4j.com/bloom/#app> schema:creator <https://neo4j.com/bloom/#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://neo4j.com/bloom//> .
+
+<https://plot.ly/javascript/#this> a schema:Organization ;
+	schema:name "Plotly.js" .
+
+<https://plot.ly/javascript/#app> schema:creator <https://plot.ly/javascript/#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://plot.ly/javascript//> .
+
+<http://www.popotojs.com#this> a schema:Organization ;
+	schema:name "Popoto.js" .
+
+<http://www.popotojs.com#app> schema:creator <http://www.popotojs.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <http://www.popotojs.com/> .
+
+<http://sigmajs.org#this> a schema:Organization ;
+	schema:name "Sigma.js" .
+
+<http://sigmajs.org#app> schema:creator <http://sigmajs.org#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <http://sigmajs.org/> .
+
+<https://www.tomsawyer.com#this> a schema:Organization ;
+	schema:name "Tom Sawyer Software" .
+
+<https://www.tomsawyer.com#app> schema:creator <https://www.tomsawyer.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://www.tomsawyer.com/> .
+
+<http://visjs.org#this> a schema:Organization ;
+	schema:name "vis.js" .
+
+<http://visjs.org#app> schema:creator <http://visjs.org#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <http://visjs.org/> .
+
+<https://www.yworks.com#this> a schema:Organization ;
+	schema:name "yWorks" .
+
+<https://www.yworks.com#app> schema:creator <https://www.yworks.com#this> ;
+	schema:category <#a768caa988605a2846599cf7e2d0c26a> , <#cf8615b1133b2d4a59af9c030e66a114> ;
+	schema:mainEntityOfPage <https://www.yworks.com/> .
+
+<http://g-core.org#this> a schema:Organization ;
+	schema:name "G-CORE" .
+
+<http://g-core.org#queryLang> schema:creator <http://g-core.org#this> .
+
+<#77549a07bac3cecb6540bd5d32cb8031> schema:name "Query Languages" .
+
+<http://g-core.org#queryLang> schema:category <#77549a07bac3cecb6540bd5d32cb8031> ;
+	schema:mainEntityOfPage <http://g-core.org/> .
+
+<https://gql.today#this> a schema:Organization ;
+	schema:name "GQL" .
+
+<https://gql.today#queryLang> schema:creator <https://gql.today#this> ;
+	schema:category <#77549a07bac3cecb6540bd5d32cb8031> ;
+	schema:mainEntityOfPage <https://gql.today/> .
+
+<https://graphql.org#this> a schema:Organization ;
+	schema:name "GraphQL" .
+
+<https://graphql.org#queryLang> schema:creator <https://graphql.org#this> ;
+	schema:category <#77549a07bac3cecb6540bd5d32cb8031> ;
+	schema:mainEntityOfPage <https://graphql.org/> .
+
+<http://tinkerpop.apache.org/gremlin.html#this> a schema:Organization ;
+	schema:name "Gremlin" .
+
+<http://tinkerpop.apache.org/gremlin.html#queryLang> schema:creator <http://tinkerpop.apache.org/gremlin.html#this> ;
+	schema:category <#77549a07bac3cecb6540bd5d32cb8031> ;
+	schema:mainEntityOfPage <http://tinkerpop.apache.org/gremlin.html/> .
+
+<http://www.opencypher.org#this> a schema:Organization ;
+	schema:name "OpenCypher" .
+
+<http://www.opencypher.org#queryLang> schema:creator <http://www.opencypher.org#this> ;
+	schema:category <#77549a07bac3cecb6540bd5d32cb8031> ;
+	schema:mainEntityOfPage <http://www.opencypher.org/> .
+
+<http://pgql-lang.org#this> a schema:Organization ;
+	schema:name "PGQL" .
+
+<http://pgql-lang.org#queryLang> schema:creator <http://pgql-lang.org#this> ;
+	schema:category <#77549a07bac3cecb6540bd5d32cb8031> ;
+	schema:mainEntityOfPage <http://pgql-lang.org/> .
+
+<https://www.w3.org/TR/rdf-sparql-query/#this> a schema:Organization ;
+	schema:name "SPARQL" .
+
+<https://www.w3.org/TR/rdf-sparql-query/#queryLang> schema:creator <https://www.w3.org/TR/rdf-sparql-query/#this> ;
+	schema:category <#77549a07bac3cecb6540bd5d32cb8031> ;
+	schema:mainEntityOfPage <https://www.w3.org/TR/rdf-sparql-query//> .
+
+<https://www.oreilly.com/library/view/beginning-neo4j/9781484212271/#this> a schema:Organization ;
+	schema:name "Beginning Neo4j" .
+
+<https://www.oreilly.com/library/view/beginning-neo4j/9781484212271/#book> schema:creator <https://www.oreilly.com/library/view/beginning-neo4j/9781484212271/#this> .
+
+<#c6fce332f24d89c76c6db083f1ff5cbd> schema:name "Information resources" .
+
+<https://www.oreilly.com/library/view/beginning-neo4j/9781484212271/#book> schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> .
+
+<#6225eb5bf8a031f750a1b03f810ccc6a> schema:name "Books" .
+
+<https://www.oreilly.com/library/view/beginning-neo4j/9781484212271/#book> schema:category <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <https://www.oreilly.com/library/view/beginning-neo4j/9781484212271//> .
+
+<https://www.packtpub.com/application-development/building-web-applications-python-and-neo4j/#this> a schema:Organization ;
+	schema:name "Building Web Applications with Python and Neo4j" .
+
+<https://www.packtpub.com/application-development/building-web-applications-python-and-neo4j/#book> schema:creator <https://www.packtpub.com/application-development/building-web-applications-python-and-neo4j/#this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <https://www.packtpub.com/application-development/building-web-applications-python-and-neo4j//> .
+
+<#http%3A%2F%2Fwww.lulu.com%2Fshop%2Fmichael-hunger-and-david-montag-and-andreas-kollegger%2Fgood-relationships-the-spring-data-neo4j-guide-book%2Fpaperback%2Fproduct-20201195.html+%23this> a schema:Organization ;
+	schema:name "Good Relationships - The Spring Data Neo4j Guide Book" .
+
+<#http%3A%2F%2Fwww.lulu.com%2Fshop%2Fmichael-hunger-and-david-montag-and-andreas-kollegger%2Fgood-relationships-the-spring-data-neo4j-guide-book%2Fpaperback%2Fproduct-20201195.html+%23book> schema:creator <#http%3A%2F%2Fwww.lulu.com%2Fshop%2Fmichael-hunger-and-david-montag-and-andreas-kollegger%2Fgood-relationships-the-spring-data-neo4j-guide-book%2Fpaperback%2Fproduct-20201195.html+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#http%3A%2F%2Fwww.lulu.com%2Fshop%2Fmichael-hunger-and-david-montag-and-andreas-kollegger%2Fgood-relationships-the-spring-data-neo4j-guide-book%2Fpaperback%2Fproduct-20201195.html+%2F> .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-algorithms%2F9781492047674%2F+%23this> a schema:Organization ;
+	schema:name "Graph Algorithms" .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-algorithms%2F9781492047674%2F+%23book> schema:creator <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-algorithms%2F9781492047674%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-algorithms%2F9781492047674%2F+%2F> .
+
+<https://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity-ebook/dp/B00T1JQUQE?tag=linkeddata-books-20#this> a schema:Organization ;
+	schema:name """Graph Analysis and Visualization: Discovering Business Opportunity in 
+Linked Data""" .
+
+<https://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity-ebook/dp/B00T1JQUQE?tag=linkeddata-books-20#book> schema:creator <https://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity-ebook/dp/B00T1JQUQE?tag=linkeddata-books-20#this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <https://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity-ebook/dp/B00T1JQUQE?tag=linkeddata-books-20/> .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-data-modeling%2F9781634621236%2F+%23this> a schema:Organization ;
+	schema:name "Graph Data Modeling for NoSQL and SQL: Visualize Structure and Meaning" .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-data-modeling%2F9781634621236%2F+%23book> schema:creator <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-data-modeling%2F9781634621236%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-data-modeling%2F9781634621236%2F+%2F> .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-Database-Management-Systems-2nd%2F9781491930885%2F+%23this> a schema:Organization ;
+	schema:name "Graph Database Management Systems" .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-Database-Management-Systems-2nd%2F9781491930885%2F+%23book> schema:creator <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-Database-Management-Systems-2nd%2F9781491930885%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgraph-Database-Management-Systems-2nd%2F9781491930885%2F+%2F> .
+
+<#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fgraph-Database-Management-Systems-in-action+%23this> a schema:Organization ;
+	schema:name "Graph Database Management Systems in Action" .
+
+<#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fgraph-Database-Management-Systems-in-action+%23book> schema:creator <#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fgraph-Database-Management-Systems-in-action+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fgraph-Database-Management-Systems-in-action+%2F> .
+
+<#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fgraph-powered-machine-learning+%23this> a schema:Organization ;
+	schema:name "Graph-Powered Machine Learning" .
+
+<#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fgraph-powered-machine-learning+%23book> schema:creator <#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fgraph-powered-machine-learning+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fgraph-powered-machine-learning+%2F> .
+
+<#https%3A%2F%2Fwww.packtpub.com%2Fhardware-and-creative%2Flearning-cypher+%23this> a schema:Organization ;
+	schema:name "Learning Cypher" .
+
+<#https%3A%2F%2Fwww.packtpub.com%2Fhardware-and-creative%2Flearning-cypher+%23book> schema:creator <#https%3A%2F%2Fwww.packtpub.com%2Fhardware-and-creative%2Flearning-cypher+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.packtpub.com%2Fhardware-and-creative%2Flearning-cypher+%2F> .
+
+<#https%3A%2F%2Fwww.packtpub.com%2Fbig-data-and-business-intelligence%2Flearning-neo4j-3x-second-edition+%23this> a schema:Organization ;
+	schema:name "Learning Neo4j 3.x – Second Edition" .
+
+<#https%3A%2F%2Fwww.packtpub.com%2Fbig-data-and-business-intelligence%2Flearning-neo4j-3x-second-edition+%23book> schema:creator <#https%3A%2F%2Fwww.packtpub.com%2Fbig-data-and-business-intelligence%2Flearning-neo4j-3x-second-edition+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.packtpub.com%2Fbig-data-and-business-intelligence%2Flearning-neo4j-3x-second-edition+%2F> .
+
+<https://www.amazon.com/Mastering-Gephi-Network-Visualization-Cherven/dp/1783987340?tag=linkeddata-books-20#this> a schema:Organization ;
+	schema:name "Mastering Gephi Network Visualization" .
+
+<https://www.amazon.com/Mastering-Gephi-Network-Visualization-Cherven/dp/1783987340?tag=linkeddata-books-20#book> schema:creator <https://www.amazon.com/Mastering-Gephi-Network-Visualization-Cherven/dp/1783987340?tag=linkeddata-books-20#this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <https://www.amazon.com/Mastering-Gephi-Network-Visualization-Cherven/dp/1783987340?tag=linkeddata-books-20/> .
+
+<#https%3A%2F%2Fneo4j.com%2Fneo4j-graphdatenbank-book%2F+%23this> a schema:Organization ;
+	schema:name "Neo4j 2.0 – Eine Graphdatenbank für alle" .
+
+<#https%3A%2F%2Fneo4j.com%2Fneo4j-graphdatenbank-book%2F+%23book> schema:creator <#https%3A%2F%2Fneo4j.com%2Fneo4j-graphdatenbank-book%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fneo4j.com%2Fneo4j-graphdatenbank-book%2F+%2F> .
+
+<https://www.amazon.com/gp/product/B0786LZL6Y/ref=dbs_a_def_rwt_bibl_vppi_i0&tag=linkeddata-books-20#this> a schema:Organization ;
+	schema:name "Neo4j : des données et des graphes - II. Déploiement" .
+
+<https://www.amazon.com/gp/product/B0786LZL6Y/ref=dbs_a_def_rwt_bibl_vppi_i0&tag=linkeddata-books-20#book> schema:creator <https://www.amazon.com/gp/product/B0786LZL6Y/ref=dbs_a_def_rwt_bibl_vppi_i0&tag=linkeddata-books-20#this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <https://www.amazon.com/gp/product/B0786LZL6Y/ref=dbs_a_def_rwt_bibl_vppi_i0&tag=linkeddata-books-20/> .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-cookbook%2F9781783287253%2F+%23this> a schema:Organization ;
+	schema:name "Neo4j Cookbook" .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-cookbook%2F9781783287253%2F+%23book> schema:creator <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-cookbook%2F9781783287253%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-cookbook%2F9781783287253%2F+%2F> .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-essentials%2F9781783555178%2F+%23this> a schema:Organization ;
+	schema:name "Neo4j Essentials" .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-essentials%2F9781783555178%2F+%23book> schema:creator <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-essentials%2F9781783555178%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-essentials%2F9781783555178%2F+%2F> .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-graph-data%2F9781784393441%2F+%23this> a schema:Organization ;
+	schema:name "Neo4j Graph Data Modeling" .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-graph-data%2F9781784393441%2F+%23book> schema:creator <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-graph-data%2F9781784393441%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-graph-data%2F9781784393441%2F+%2F> .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-high-performance%2F9781783555154%2F+%23this> a schema:Organization ;
+	schema:name "Neo4j High Performance" .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-high-performance%2F9781783555154%2F+%23book> schema:creator <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-high-performance%2F9781783555154%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fneo4j-high-performance%2F9781783555154%2F+%2F> .
+
+<#https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F15743991-neo4j-in-action+%23this> a schema:Organization ;
+	schema:name "Neo4j in Action" .
+
+<#https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F15743991-neo4j-in-action+%23book> schema:creator <#https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F15743991-neo4j-in-action+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F15743991-neo4j-in-action+%2F> .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fpractical-neo4j%2F9781484200223%2F+%23this> a schema:Organization ;
+	schema:name "Practical Neo4j" .
+
+<#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fpractical-neo4j%2F9781484200223%2F+%23book> schema:creator <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fpractical-neo4j%2F9781484200223%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fpractical-neo4j%2F9781484200223%2F+%2F> .
+
+<http://www.amazon.com/gp/product/1934356921/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1934356921&linkCode=as2&tag=linkeddata-books-20#this> a schema:Organization ;
+	schema:name "Seven Database Management Systems in Seven Weeks" .
+
+<http://www.amazon.com/gp/product/1934356921/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1934356921&linkCode=as2&tag=linkeddata-books-20#book> schema:creator <http://www.amazon.com/gp/product/1934356921/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1934356921&linkCode=as2&tag=linkeddata-books-20#this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <http://www.amazon.com/gp/product/1934356921/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1934356921&linkCode=as2&tag=linkeddata-books-20/> .
+
+<#https%3A%2F%2Fentwickler.de%2Fpress%2Fstructr-126647.html+%23this> a schema:Organization ;
+	schema:name "Structr-Quelloffenes Daten-CMS auf Neo4j-Basis" .
+
+<#https%3A%2F%2Fentwickler.de%2Fpress%2Fstructr-126647.html+%23book> schema:creator <#https%3A%2F%2Fentwickler.de%2Fpress%2Fstructr-126647.html+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fentwickler.de%2Fpress%2Fstructr-126647.html+%2F> .
+
+<#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fvisualizing-graph-data+%23this> a schema:Organization ;
+	schema:name "Visualizing Graph Data" .
+
+<#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fvisualizing-graph-data+%23book> schema:creator <#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fvisualizing-graph-data+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#6225eb5bf8a031f750a1b03f810ccc6a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.manning.com%2Fbooks%2Fvisualizing-graph-data+%2F> .
+
+<#https%3A%2F%2Fwww.meetup.com%2FConnected-Data-London%2F+%23this> a schema:Organization ;
+	schema:name "Connected Data London" .
+
+<#https%3A%2F%2Fwww.meetup.com%2FConnected-Data-London%2F+%23conference> schema:creator <#https%3A%2F%2Fwww.meetup.com%2FConnected-Data-London%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> .
+
+<#d70b594800bbabc2b8d380ea6e2275b7> schema:name "Conferences" .
+
+<#https%3A%2F%2Fwww.meetup.com%2FConnected-Data-London%2F+%23conference> schema:category <#d70b594800bbabc2b8d380ea6e2275b7> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.meetup.com%2FConnected-Data-London%2F+%2F> .
+
+<#https%3A%2F%2Ffosdem.org%2F+%23this> a schema:Organization ;
+	schema:name "FOSDEM" .
+
+<#https%3A%2F%2Ffosdem.org%2F+%23conference> schema:creator <#https%3A%2F%2Ffosdem.org%2F+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#d70b594800bbabc2b8d380ea6e2275b7> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Ffosdem.org%2F+%2F> .
+
+<#https%3A%2F%2Fgraphconnect.com+%23this> a schema:Organization ;
+	schema:name "GraphConnect" .
+
+<#https%3A%2F%2Fgraphconnect.com+%23conference> schema:creator <#https%3A%2F%2Fgraphconnect.com+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#d70b594800bbabc2b8d380ea6e2275b7> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fgraphconnect.com+%2F> .
+
+<#http%3A%2F%2Fgraphday.com+%23this> a schema:Organization ;
+	schema:name "GraphDay" .
+
+<#http%3A%2F%2Fgraphday.com+%23conference> schema:creator <#http%3A%2F%2Fgraphday.com+%23this> ;
+	schema:category <#c6fce332f24d89c76c6db083f1ff5cbd> , <#d70b594800bbabc2b8d380ea6e2275b7> ;
+	schema:mainEntityOfPage <#http%3A%2F%2Fgraphday.com+%2F> .
+
+<#https%3A%2F%2Faws.amazon.com%2Fneptune%2F+%23this> a schema:Organization ;
+	schema:name "Amazon Neptune" .
+
+<#https%3A%2F%2Faws.amazon.com%2Fneptune%2F+%23platform> schema:creator <#https%3A%2F%2Faws.amazon.com%2Fneptune%2F+%23this> .
+
+<#419f3742e6de8e0ec4b22cce005e7630> schema:name "Platform" .
+
+<#https%3A%2F%2Faws.amazon.com%2Fneptune%2F+%23platform> schema:category <#419f3742e6de8e0ec4b22cce005e7630> .
+
+<#ab9f43166169e5a9d391719497a37389> schema:name "Database Management System" .
+
+<#https%3A%2F%2Faws.amazon.com%2Fneptune%2F+%23platform> schema:category <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Faws.amazon.com%2Fneptune%2F+%2F> .
+
+<#https%3A%2F%2Fwww.cambridgesemantics.com%2Fproduct%2Fanzograph%2F+%23this> a schema:Organization ;
+	schema:name "AnzoGraph" .
+
+<#https%3A%2F%2Fwww.cambridgesemantics.com%2Fproduct%2Fanzograph%2F+%23platform> schema:creator <#https%3A%2F%2Fwww.cambridgesemantics.com%2Fproduct%2Fanzograph%2F+%23this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.cambridgesemantics.com%2Fproduct%2Fanzograph%2F+%2F> .
+
+<https://cayley.io/#this> a schema:Organization ;
+	schema:name "Cayley" .
+
+<https://cayley.io/#platform> schema:creator <https://cayley.io/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://cayley.io//> .
+
+<https://dgraph.io/#this> a schema:Organization ;
+	schema:name "Dgraph" .
+
+<https://dgraph.io/#platform> schema:creator <https://dgraph.io/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://dgraph.io//> .
+
+<https://github.com/twitter-archive/flockdb/#this> a schema:Organization ;
+	schema:name "FlockDB" .
+
+<https://github.com/twitter-archive/flockdb/#platform> schema:creator <https://github.com/twitter-archive/flockdb/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://github.com/twitter-archive/flockdb//> .
+
+<https://graphbase.ai/#this> a schema:Organization ;
+	schema:name "GraphBase" .
+
+<https://graphbase.ai/#platform> schema:creator <https://graphbase.ai/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://graphbase.ai//> .
+
+<https://github.com/rayokota/hgraphdb/#this> a schema:Organization ;
+	schema:name "HGraphDB" .
+
+<https://github.com/rayokota/hgraphdb/#platform> schema:creator <https://github.com/rayokota/hgraphdb/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://github.com/rayokota/hgraphdb//> .
+
+<https://www.huaweicloud.com/en-us/product/ges.html/#this> a schema:Organization ;
+	schema:name "Huawei Graph Engine Service" .
+
+<https://www.huaweicloud.com/en-us/product/ges.html/#platform> schema:creator <https://www.huaweicloud.com/en-us/product/ges.html/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://www.huaweicloud.com/en-us/product/ges.html//> .
+
+<http://hypergraphdb.org/#this> a schema:Organization ;
+	schema:name "HyperGraphDB" .
+
+<http://hypergraphdb.org/#platform> schema:creator <http://hypergraphdb.org/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://hypergraphdb.org//> .
+
+<#https%3A%2F%2Fwww.objectivity.com%2Fproducts%2Finfinitegraph%2F+%23this> a schema:Organization ;
+	schema:name "InfiniteGraph" .
+
+<#https%3A%2F%2Fwww.objectivity.com%2Fproducts%2Finfinitegraph%2F+%23platform> schema:creator <#https%3A%2F%2Fwww.objectivity.com%2Fproducts%2Finfinitegraph%2F+%23this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.objectivity.com%2Fproducts%2Finfinitegraph%2F+%2F> .
+
+<http://infogrid.org#this> a schema:Organization ;
+	schema:name "InfoGrid" .
+
+<http://infogrid.org#platform> schema:creator <http://infogrid.org#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://infogrid.org/> .
+
+<http://janusgraph.org#this> a schema:Organization ;
+	schema:name "JanusGraph" .
+
+<http://janusgraph.org#platform> schema:creator <http://janusgraph.org#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://janusgraph.org/> .
+
+<http://memgraph.com#this> a schema:Organization ;
+	schema:name "Memgraph" .
+
+<http://memgraph.com#platform> schema:creator <http://memgraph.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://memgraph.com/> .
+
+<https://neo4j.com#this> a schema:Organization ;
+	schema:name "Neo4j" .
+
+<https://neo4j.com#platform> schema:creator <https://neo4j.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://neo4j.com/> .
+
+<http://sparsity-technologies.com#this> a schema:Organization ;
+	schema:name "Sparksee" .
+
+<http://sparsity-technologies.com#platform> schema:creator <http://sparsity-technologies.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://sparsity-technologies.com/> .
+
+<https://www.tigergraph.com#this> a schema:Organization ;
+	schema:name "TigerGraph" .
+
+<https://www.tigergraph.com#platform> schema:creator <https://www.tigergraph.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://www.tigergraph.com/> .
+
+<https://github.com/tinkerpop/blueprints/wiki/tinkergraph#this> a schema:Organization ;
+	schema:name "TinkerGraph" .
+
+<https://github.com/tinkerpop/blueprints/wiki/tinkergraph#platform> schema:creator <https://github.com/tinkerpop/blueprints/wiki/tinkergraph#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://github.com/tinkerpop/blueprints/wiki/tinkergraph/> .
+
+<https://bitnine.net/agensgraph-2/#this> a schema:Organization ;
+	schema:name "AgensGraph" .
+
+<https://bitnine.net/agensgraph-2/#platform> schema:creator <https://bitnine.net/agensgraph-2/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://bitnine.net/agensgraph-2//> .
+
+<https://franz.com/agraph/allegrograph/#platform> schema:creator <https://franz.com/agraph/allegrograph/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://franz.com/agraph/allegrograph//> .
+
+<https://www.arangodb.com#this> a schema:Organization ;
+	schema:name "ArangoDB" .
+
+<https://www.arangodb.com#platform> schema:creator <https://www.arangodb.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://www.arangodb.com/> .
+
+<https://www.blazegraph.com#this> a schema:Organization ;
+	schema:name "Blazegraph" .
+
+<https://www.blazegraph.com#platform> schema:creator <https://www.blazegraph.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://www.blazegraph.com/> .
+
+<https://www.datastax.com#this> a schema:Organization ;
+	schema:name "Datastax Enterprise" .
+
+<https://www.datastax.com#platform> schema:creator <https://www.datastax.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://www.datastax.com/> .
+
+<https://fauna.com#this> a schema:Organization ;
+	schema:name "FaunaDB" .
+
+<https://fauna.com#platform> schema:creator <https://fauna.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://fauna.com/> .
+
+<http://grakn.ai#platform> schema:creator <http://grakn.ai#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://grakn.ai/> .
+
+<https://www.graphengine.io#this> a schema:Organization ;
+	schema:name "Graph Engine" .
+
+<https://www.graphengine.io#platform> schema:creator <https://www.graphengine.io#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://www.graphengine.io/> .
+
+<http://graphdb.ontotext.com#this> a schema:Organization ;
+	schema:name "GraphDB" .
+
+<http://graphdb.ontotext.com#platform> schema:creator <http://graphdb.ontotext.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://graphdb.ontotext.com/> .
+
+<https://azure.microsoft.com/en-us/services/cosmos-db/#this> a schema:Organization ;
+	schema:name "Microsoft Azure Cosmos DB" .
+
+<https://azure.microsoft.com/en-us/services/cosmos-db/#platform> schema:creator <https://azure.microsoft.com/en-us/services/cosmos-db/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://azure.microsoft.com/en-us/services/cosmos-db//> .
+
+<http://objectivity.com#this> a schema:Organization ;
+	schema:name "Objevtivity" .
+
+<http://objectivity.com#platform> schema:creator <http://objectivity.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://objectivity.com/> .
+
+<#https%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2FDatabase+Management+System%2Foptions%2Fspatialandgraph%2Foverview%2Findex.html%23this> a schema:Organization ;
+	schema:name "Oracle Spatial and Graph" .
+
+<#https%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2FDatabase+Management+System%2Foptions%2Fspatialandgraph%2Foverview%2Findex.html%23platform> schema:creator <#https%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2FDatabase+Management+System%2Foptions%2Fspatialandgraph%2Foverview%2Findex.html%23this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2FDatabase+Management+System%2Foptions%2Fspatialandgraph%2Foverview%2Findex.html%2F> .
+
+<https://orientdb.com#this> a schema:Organization ;
+	schema:name "OrientDB" .
+
+<https://orientdb.com#platform> schema:creator <https://orientdb.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://orientdb.com/> .
+
+<http://redisgraph.io#this> a schema:Organization ;
+	schema:name "RedisGraph" .
+
+<http://redisgraph.io#platform> schema:creator <http://redisgraph.io#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://redisgraph.io/> .
+
+<https://sqrrl.com#this> a schema:Organization ;
+	schema:name "Sqrrl" .
+
+<https://sqrrl.com#platform> schema:creator <https://sqrrl.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://sqrrl.com/> .
+
+<http://stardog.com#platform> schema:creator <http://stardog.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://stardog.com/> .
+
+<http://velocitydb.com#this> a schema:Organization ;
+	schema:name "VelocityDB" .
+
+<http://velocitydb.com#platform> schema:creator <http://velocitydb.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <http://velocitydb.com/> .
+
+<https://virtuoso.openlinksw.com#this> a schema:Organization ;
+	schema:name "OpenLink Software" .
+
+<https://virtuoso.openlinksw.com#platform> schema:creator <https://virtuoso.openlinksw.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#ab9f43166169e5a9d391719497a37389> ;
+	schema:mainEntityOfPage <https://virtuoso.openlinksw.com/> .
+
+<http://confluent.io#this> a schema:Organization ;
+	schema:name "Confluent" .
+
+<http://confluent.io#platform> schema:creator <http://confluent.io#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> .
+
+<#1115b855bb2a508bc2ca0609cc2d0f65> schema:name "Integration" .
+
+<http://confluent.io#platform> schema:category <#1115b855bb2a508bc2ca0609cc2d0f65> ;
+	schema:mainEntityOfPage <http://confluent.io/> .
+
+<https://graphaware.com/products/#this> a schema:Organization ;
+	schema:name "Databridge" .
+
+<https://graphaware.com/products/#platform> schema:creator <https://graphaware.com/products/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1115b855bb2a508bc2ca0609cc2d0f65> ;
+	schema:mainEntityOfPage <https://graphaware.com/products//> .
+
+<https://neo4j.com/developer/neo4j-etl/#this> a schema:Organization ;
+	schema:name "Neo4j ETL" .
+
+<https://neo4j.com/developer/neo4j-etl/#platform> schema:creator <https://neo4j.com/developer/neo4j-etl/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1115b855bb2a508bc2ca0609cc2d0f65> ;
+	schema:mainEntityOfPage <https://neo4j.com/developer/neo4j-etl//> .
+
+<https://www.norconex.com#this> a schema:Organization ;
+	schema:name "Norconex" .
+
+<https://www.norconex.com#platform> schema:creator <https://www.norconex.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1115b855bb2a508bc2ca0609cc2d0f65> ;
+	schema:mainEntityOfPage <https://www.norconex.com/> .
+
+<https://github.com/pentaho/pentaho-kettle#this> a schema:Organization ;
+	schema:name "Pentaho Kettle" .
+
+<https://github.com/pentaho/pentaho-kettle#platform> schema:creator <https://github.com/pentaho/pentaho-kettle#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1115b855bb2a508bc2ca0609cc2d0f65> ;
+	schema:mainEntityOfPage <https://github.com/pentaho/pentaho-kettle/> .
+
+<https://www.talend.com#this> a schema:Organization ;
+	schema:name "Talend" .
+
+<https://www.talend.com#platform> schema:creator <https://www.talend.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1115b855bb2a508bc2ca0609cc2d0f65> ;
+	schema:mainEntityOfPage <https://www.talend.com/> .
+
+<http://giraph.apache.org#this> a schema:Organization ;
+	schema:name "Apache Giraph" .
+
+<http://giraph.apache.org#platform> schema:creator <http://giraph.apache.org#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> .
+
+<#1882593c7011335a902d698ff99ab09a> schema:name "Computing Engines" .
+
+<http://giraph.apache.org#platform> schema:category <#1882593c7011335a902d698ff99ab09a> ;
+	schema:mainEntityOfPage <http://giraph.apache.org/> .
+
+<https://spark.apache.org/graphx/#this> a schema:Organization ;
+	schema:name "GraphX" .
+
+<https://spark.apache.org/graphx/#platform> schema:creator <https://spark.apache.org/graphx/#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1882593c7011335a902d698ff99ab09a> ;
+	schema:mainEntityOfPage <https://spark.apache.org/graphx//> .
+
+<https://www.oracle.com/technetwork/oracle-labs/parallel-graph-analytix/overview/index.html#this> a schema:Organization ;
+	schema:name "Oracle Parallel Graph AnalytiX (PGX)" .
+
+<https://www.oracle.com/technetwork/oracle-labs/parallel-graph-analytix/overview/index.html#platform> schema:creator <https://www.oracle.com/technetwork/oracle-labs/parallel-graph-analytix/overview/index.html#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1882593c7011335a902d698ff99ab09a> ;
+	schema:mainEntityOfPage <https://www.oracle.com/technetwork/oracle-labs/parallel-graph-analytix/overview/index.html/> .
+
+<https://trovares.com#this> a schema:Organization ;
+	schema:name "Trovares" .
+
+<https://trovares.com#platform> schema:creator <https://trovares.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1882593c7011335a902d698ff99ab09a> ;
+	schema:mainEntityOfPage <https://trovares.com/> .
+
+<https://turi.com#this> a schema:Organization ;
+	schema:name "Turi" .
+
+<https://turi.com#platform> schema:creator <https://turi.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#1882593c7011335a902d698ff99ab09a> ;
+	schema:mainEntityOfPage <https://turi.com/> .
+
+<http://marmotta.apache.org#this> a schema:Organization ;
+	schema:name "Apache Marmotta" .
+
+<http://marmotta.apache.org#platform> schema:creator <http://marmotta.apache.org#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> .
+
+<#d8675cf50d9ed61c44217b516a66276a> schema:name "Database Management Systems" .
+
+<http://marmotta.apache.org#platform> schema:category <#d8675cf50d9ed61c44217b516a66276a> ;
+	schema:mainEntityOfPage <http://marmotta.apache.org/> .
+
+<https://bitnine.net#this> a schema:Organization ;
+	schema:name "Bitnine AgensGraph" .
+
+<https://bitnine.net#platform> schema:creator <https://bitnine.net#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#d8675cf50d9ed61c44217b516a66276a> ;
+	schema:mainEntityOfPage <https://bitnine.net/> .
+
+<http://brightstardb.com#this> a schema:Organization ;
+	schema:name "BrightstarDB" .
+
+<http://brightstardb.com#platform> schema:creator <http://brightstardb.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#d8675cf50d9ed61c44217b516a66276a> ;
+	schema:mainEntityOfPage <http://brightstardb.com/> .
+
+<https://www.marklogic.com#this> a schema:Organization ;
+	schema:name "Marklogic" .
+
+<https://www.marklogic.com#platform> schema:creator <https://www.marklogic.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#d8675cf50d9ed61c44217b516a66276a> ;
+	schema:mainEntityOfPage <https://www.marklogic.com/> .
+
+<#https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fsql%2Frelational-Database+Management+Systems%2Fgraphs%2Fsql-graph-architecture%3Fview%3Dsql-server-2017%23this> a schema:Organization ;
+	schema:name "Microsoft SQL Server 2017 Graph" .
+
+<#https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fsql%2Frelational-Database+Management+Systems%2Fgraphs%2Fsql-graph-architecture%3Fview%3Dsql-server-2017%23platform> schema:creator <#https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fsql%2Frelational-Database+Management+Systems%2Fgraphs%2Fsql-graph-architecture%3Fview%3Dsql-server-2017%23this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#d8675cf50d9ed61c44217b516a66276a> ;
+	schema:mainEntityOfPage <#https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fsql%2Frelational-Database+Management+Systems%2Fgraphs%2Fsql-graph-architecture%3Fview%3Dsql-server-2017%2F> .
+
+<https://https://blogs.sap.com/2016/08/01/what-s-new-in-sap-hana-sps12-sap-hana-graph-engine/open.sap.com/courses/hsgra1#this> a schema:Organization ;
+	schema:name "Sap Hana Graph" .
+
+<https://https://blogs.sap.com/2016/08/01/what-s-new-in-sap-hana-sps12-sap-hana-graph-engine/open.sap.com/courses/hsgra1#platform> schema:creator <https://https://blogs.sap.com/2016/08/01/what-s-new-in-sap-hana-sps12-sap-hana-graph-engine/open.sap.com/courses/hsgra1#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> , <#d8675cf50d9ed61c44217b516a66276a> ;
+	schema:mainEntityOfPage <https://https://blogs.sap.com/2016/08/01/what-s-new-in-sap-hana-sps12-sap-hana-graph-engine/open.sap.com/courses/hsgra1/> .
+
+<https://aws.amazon.com#this> a schema:Organization ;
+	schema:name "Amazon" .
+
+<https://aws.amazon.com#platform> schema:creator <https://aws.amazon.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> ;
+	schema:mainEntityOfPage <https://aws.amazon.com/> .
+
+<https://cloud.google.com#this> a schema:Organization ;
+	schema:name "Google Cloud Platform" .
+
+<https://cloud.google.com#platform> schema:creator <https://cloud.google.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> ;
+	schema:mainEntityOfPage <https://cloud.google.com/> .
+
+<https://www.heroku.com#this> a schema:Organization ;
+	schema:name "Heroku" .
+
+<https://www.heroku.com#platform> schema:creator <https://www.heroku.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> ;
+	schema:mainEntityOfPage <https://www.heroku.com/> .
+
+<http://azure.microsoft.com#this> a schema:Organization ;
+	schema:name "Microsoft Azure" .
+
+<http://azure.microsoft.com#platform> schema:creator <http://azure.microsoft.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> ;
+	schema:mainEntityOfPage <http://azure.microsoft.com/> .
+
+<https://elastx.se/en#this> a schema:Organization ;
+	schema:name "Elastx" .
+
+<https://elastx.se/en#platform> schema:creator <https://elastx.se/en#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> ;
+	schema:mainEntityOfPage <https://elastx.se/en/> .
+
+<http://graphenedb.com#this> a schema:Organization ;
+	schema:name "GrapheneDB" .
+
+<http://graphenedb.com#platform> schema:creator <http://graphenedb.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> ;
+	schema:mainEntityOfPage <http://graphenedb.com/> .
+
+<https://www.graphgrid.com#this> a schema:Organization ;
+	schema:name "GraphGrid" .
+
+<https://www.graphgrid.com#platform> schema:creator <https://www.graphgrid.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> ;
+	schema:mainEntityOfPage <https://www.graphgrid.com/> .
+
+<http://graphstory.com#this> a schema:Organization ;
+	schema:name "GraphStory" .
+
+<http://graphstory.com#platform> schema:creator <http://graphstory.com#this> ;
+	schema:category <#419f3742e6de8e0ec4b22cce005e7630> ;
+	schema:mainEntityOfPage <http://graphstory.com/> .
+
+<https://github.com/neo4j-contrib/neo4j-apoc-procedures#this> a schema:Organization ;
+	schema:name "APOC" .
+
+<https://github.com/neo4j-contrib/neo4j-apoc-procedures#utility> schema:creator <https://github.com/neo4j-contrib/neo4j-apoc-procedures#this> .
+
+<#ceba282b7418b7f199798b645e1cba56> schema:name "Utilities" .
+
+<https://github.com/neo4j-contrib/neo4j-apoc-procedures#utility> schema:category <#ceba282b7418b7f199798b645e1cba56> .
+
+<#c040eca25f552e7711df4f5fec15f660> schema:name "Application frameworks and libraries" .
+
+<https://github.com/neo4j-contrib/neo4j-apoc-procedures#utility> schema:category <#c040eca25f552e7711df4f5fec15f660> ;
+	schema:mainEntityOfPage <https://github.com/neo4j-contrib/neo4j-apoc-procedures/> .
+
+<https://www.engineyard.com#this> a schema:Organization ;
+	schema:name "EngineYard" .
+
+<https://www.engineyard.com#utility> schema:creator <https://www.engineyard.com#this> ;
+	schema:category <#ceba282b7418b7f199798b645e1cba56> , <#c040eca25f552e7711df4f5fec15f660> ;
+	schema:mainEntityOfPage <https://www.engineyard.com/> .
+
+<https://github.com/graphaware/neo4j-framework#this> a schema:Organization ;
+	schema:name "GraphAware Neo4j Framwork" .
+
+<https://github.com/graphaware/neo4j-framework#utility> schema:creator <https://github.com/graphaware/neo4j-framework#this> ;
+	schema:category <#ceba282b7418b7f199798b645e1cba56> , <#c040eca25f552e7711df4f5fec15f660> ;
+	schema:mainEntityOfPage <https://github.com/graphaware/neo4j-framework/> .
+
+<https://graphileon.com/#this> a schema:Organization ;
+	schema:name "Graphileon" .
+
+<https://graphileon.com/#utility> schema:creator <https://graphileon.com/#this> ;
+	schema:category <#ceba282b7418b7f199798b645e1cba56> , <#c040eca25f552e7711df4f5fec15f660> ;
+	schema:mainEntityOfPage <https://graphileon.com//> .
+
+<http://spring.io#this> a schema:Organization ;
+	schema:name "Spring" .
+
+<http://spring.io#utility> schema:creator <http://spring.io#this> ;
+	schema:category <#ceba282b7418b7f199798b645e1cba56> , <#c040eca25f552e7711df4f5fec15f660> ;
+	schema:mainEntityOfPage <http://spring.io/> .
+
+<http://structr.com#this> a schema:Organization ;
+	schema:name "Structr" .
+
+<http://structr.com#utility> schema:creator <http://structr.com#this> ;
+	schema:category <#ceba282b7418b7f199798b645e1cba56> , <#c040eca25f552e7711df4f5fec15f660> ;
+	schema:mainEntityOfPage <http://structr.com/> .
+
+<https://structr.com/#this> a schema:Organization ;
+	schema:name "Structr" .
+
+<https://structr.com/#utility> schema:creator <https://structr.com/#this> ;
+	schema:category <#ceba282b7418b7f199798b645e1cba56> , <#c040eca25f552e7711df4f5fec15f660> ;
+	schema:mainEntityOfPage <https://structr.com//> .
+
+<http://datatovalue.co.uk#this> a schema:Organization ;
+	schema:name "Data To Value" .
+
+<http://datatovalue.co.uk#service> schema:creator <http://datatovalue.co.uk#this> .
+
+<#992a0f0542384f1ee5ef51b7cf4ae6c4> schema:name "Services" .
+
+<http://datatovalue.co.uk#service> schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> .
+
+<#ca5e8455876f15fab5331d96be08b689> schema:name "Consulting" .
+
+<http://datatovalue.co.uk#service> schema:category <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <http://datatovalue.co.uk/> .
+
+<https://www.datafactz.com#this> a schema:Organization ;
+	schema:name "DataFactZ" .
+
+<https://www.datafactz.com#service> schema:creator <https://www.datafactz.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.datafactz.com/> .
+
+<http://graphaware.com#this> a schema:Organization ;
+	schema:name "GraphAware" .
+
+<http://graphaware.com#service> schema:creator <http://graphaware.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <http://graphaware.com/> .
+
+<http://grapheverywhere.com#this> a schema:Organization ;
+	schema:name "GraphEverywhere" .
+
+<http://grapheverywhere.com#service> schema:creator <http://grapheverywhere.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <http://grapheverywhere.com/> .
+
+<https://kubrickgroup.com/#this> a schema:Organization ;
+	schema:name "Kubrick" .
+
+<https://kubrickgroup.com/#service> schema:creator <https://kubrickgroup.com/#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://kubrickgroup.com//> .
+
+<http://larus-ba.it#this> a schema:Organization ;
+	schema:name "LARUS Business Automation" .
+
+<http://larus-ba.it#service> schema:creator <http://larus-ba.it#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <http://larus-ba.it/> .
+
+<https://marionete.co.uk#this> a schema:Organization ;
+	schema:name "Marionete" .
+
+<https://marionete.co.uk#service> schema:creator <https://marionete.co.uk#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://marionete.co.uk/> .
+
+<https://www.menome.com#this> a schema:Organization ;
+	schema:name "Menome" .
+
+<https://www.menome.com#service> schema:creator <https://www.menome.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.menome.com/> .
+
+<https://www.netconsult.se#this> a schema:Organization ;
+	schema:name "NetConsult" .
+
+<https://www.netconsult.se#service> schema:creator <https://www.netconsult.se#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.netconsult.se/> .
+
+<https://www.novencia.com#this> a schema:Organization ;
+	schema:name "Novencia" .
+
+<https://www.novencia.com#service> schema:creator <https://www.novencia.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.novencia.com/> .
+
+<http://www.omen.sg#this> a schema:Organization ;
+	schema:name "Omen" .
+
+<http://www.omen.sg#service> schema:creator <http://www.omen.sg#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <http://www.omen.sg/> .
+
+<https://www.onepointltd.com#this> a schema:Organization ;
+	schema:name "OnePoint" .
+
+<https://www.onepointltd.com#service> schema:creator <https://www.onepointltd.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.onepointltd.com/> .
+
+<https://opencredo.com#this> a schema:Organization ;
+	schema:name "OpenCredo" .
+
+<https://opencredo.com#service> schema:creator <https://opencredo.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://opencredo.com/> .
+
+<https://www.pitneybowes.com/#this> a schema:Organization ;
+	schema:name "Pitney Bowes" .
+
+<https://www.pitneybowes.com/#service> schema:creator <https://www.pitneybowes.com/#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.pitneybowes.com//> .
+
+<https://www.prodyna.com#this> a schema:Organization ;
+	schema:name "Prodyna" .
+
+<https://www.prodyna.com#service> schema:creator <https://www.prodyna.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.prodyna.com/> .
+
+<http://quantumanalytics.ch#this> a schema:Organization ;
+	schema:name "Quantum Analytics AG" .
+
+<http://quantumanalytics.ch#service> schema:creator <http://quantumanalytics.ch#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <http://quantumanalytics.ch/> .
+
+<https://www.quantyca.it#this> a schema:Organization ;
+	schema:name "Quantyca" .
+
+<https://www.quantyca.it#service> schema:creator <https://www.quantyca.it#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.quantyca.it/> .
+
+<https://www.softlinkinformation.com#this> a schema:Organization ;
+	schema:name "Softlink" .
+
+<https://www.softlinkinformation.com#service> schema:creator <https://www.softlinkinformation.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://www.softlinkinformation.com/> .
+
+<https://trifork.com#this> a schema:Organization ;
+	schema:name "Trifork" .
+
+<https://trifork.com#service> schema:creator <https://trifork.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://trifork.com/> .
+
+<https://uti-inc.com/#this> a schema:Organization ;
+	schema:name "UTI Inc." .
+
+<https://uti-inc.com/#service> schema:creator <https://uti-inc.com/#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://uti-inc.com//> .
+
+<https://va-worldwide.com/#this> a schema:Organization ;
+	schema:name "VA Worldwide" .
+
+<https://va-worldwide.com/#service> schema:creator <https://va-worldwide.com/#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <https://va-worldwide.com//> .
+
+<http://we-yun.com#this> a schema:Organization ;
+	schema:name "We Yun" .
+
+<http://we-yun.com#service> schema:creator <http://we-yun.com#this> ;
+	schema:category <#992a0f0542384f1ee5ef51b7cf4ae6c4> , <#ca5e8455876f15fab5331d96be08b689> ;
+	schema:mainEntityOfPage <http://we-yun.com/> .
