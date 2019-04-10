@@ -1,0 +1,319 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://ecrm.intranet.openlinksw.com/us_mis_csv#",
+      "prefixes": [],
+      "rootNodes": []
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://ecrm.intranet.openlinksw.com/us_mis_csv#",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "software",
+          "uri": "http://www.openlinksw.com/ontology/software#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Linked Data URI",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://schema.org/creator",
+              "curie": "schema:creator",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "Software App Homepage URL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/name",
+                    "curie": "schema:name",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Company"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://ecrm.intranet.openlinksw.com/us_mis_csv#",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "software",
+          "uri": "http://www.openlinksw.com/ontology/software#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Linked Data URI",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://schema.org/creator",
+              "curie": "schema:creator",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "Software App Homepage URL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/name",
+                    "curie": "schema:name",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Company"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/category",
+              "curie": "schema:category",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "md5(value)",
+                "isRowNumberCell": false,
+                "columnName": "Category1",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://schema.org/name",
+                    "curie": "schema:name",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Category1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/category",
+              "curie": "schema:category",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "md5(value)",
+                "isRowNumberCell": false,
+                "columnName": "Category2",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://schema.org/name",
+                    "curie": "schema:name",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Category2"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/mainEntityOfPage",
+              "curie": "schema:mainEntityOfPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/\"",
+                "isRowNumberCell": false,
+                "columnName": "Software App Homepage URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://ecrm.intranet.openlinksw.com/us_mis_csv#",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "software",
+          "uri": "http://www.openlinksw.com/ontology/software#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Linked Data URI",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://schema.org/creator",
+              "curie": "schema:creator",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "Software App Homepage URL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/name",
+                    "curie": "schema:name",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Company"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/category",
+              "curie": "schema:category",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "md5(value)",
+                "isRowNumberCell": false,
+                "columnName": "Category1",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://schema.org/name",
+                    "curie": "schema:name",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Category1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/category",
+              "curie": "schema:category",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "md5(value)",
+                "isRowNumberCell": false,
+                "columnName": "Category2",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://schema.org/name",
+                    "curie": "schema:name",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Category2"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/mainEntityOfPage",
+              "curie": "schema:mainEntityOfPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/\"",
+                "isRowNumberCell": false,
+                "columnName": "Software App Homepage URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
