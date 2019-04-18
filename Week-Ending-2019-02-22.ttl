@@ -1,0 +1,37 @@
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<https://twitter.com/kidehen/status/1096528306592194562#> a schema:CreativeWork , foaf:Document ;
+	schema:url "https://twitter.com/kidehen/status/1096528306592194562" ;
+	skos:related <https://twitter.com/hashtag/MarketResearch#this> , <http://data.openlinksw.com/oplweb/glossary-term/MarketResearch#this> , <https://smile.amazon.com/dp/173138517X/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/0749475854/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/1452291586/?tag=linkeddata-books-20> .
+
+<https://twitter.com/kidehen/status/1096856009962856448#> a schema:CreativeWork , foaf:Document ;
+	schema:url "https://twitter.com/kidehen/status/1096856009962856448" ;
+	skos:related <https://twitter.com/hashtag/History#this> , <https://twitter.com/hashtag/Computing#this> , <https://twitter.com/hashtag/ArtificialIntelligence#this> , <https://twitter.com/hashtag/AI#this> , <https://twitter.com/hashtag/SmartAgent#this> , <http://data.openlinksw.com/oplweb/glossary-term/History#this> , <http://data.openlinksw.com/oplweb/glossary-term/Computing#this> , <https://twitter.com/hashtag/http://data.openlinksw.com/oplweb/glossary-term/AIthis#this> , <http://data.openlinksw.com/oplweb/glossary-term/SmartAgent#this> , <https://smile.amazon.com/dp/1119548217/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/0998289027/?tag=linkeddata-books-20> .
+
+<https://twitter.com/kidehen/status/1097237478443024391#> a schema:CreativeWork , foaf:Document ;
+	schema:url "https://twitter.com/kidehen/status/1097237478443024391" ;
+	skos:related <https://twitter.com/hashtag/History#this> , <https://twitter.com/hashtag/Web#this> , <https://twitter.com/hashtag/NeXT#this> , <https://twitter.com/hashtag/Society#this> , <https://twitter.com/hashtag/Technology#this> , <http://data.openlinksw.com/oplweb/glossary-term/History#this> , <http://data.openlinksw.com/oplweb/glossary-term/Web#this> , <https://twitter.com/hashtag/http://data.openlinksw.com/oplweb/glossary-term/NeXTthis#this> , <http://data.openlinksw.com/oplweb/glossary-term/Society#this> , <http://data.openlinksw.com/oplweb/glossary-term/Technology#this> .
+
+<https://twitter.com/kidehen/status/1097907331113865216#> a schema:CreativeWork , foaf:Document ;
+	schema:url "https://twitter.com/kidehen/status/1097907331113865216" ;
+	skos:related <https://twitter.com/hashtag/Privacy#this> , <http://data.openlinksw.com/oplweb/glossary-term/Privacy#this> , <https://smile.amazon.com/dp/039335217X/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/152277890X/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/1720869332/?tag=linkeddata-books-20> .
+
+<https://twitter.com/shewardmills/status/1096342507909206016#> a schema:CreativeWork , foaf:Document ;
+	schema:url "https://twitter.com/shewardmills/status/1096342507909206016" ;
+	skos:related <https://twitter.com/hashtag/OSDS#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/URIBurner#this> , <http://data.openlinksw.com/oplweb/glossary-term/OSDS#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <https://twitter.com/hashtag/http://data.openlinksw.com/oplweb/glossary-term/URIBurnerthis#this> , <https://smile.amazon.com/dp/1617290394/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/1484210506/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/B00S15F0I8/?tag=linkeddata-books-20> .
+
+<https://twitter.com/kidehen/status/1098256913932914688#> a schema:CreativeWork , foaf:Document ;
+	schema:url "https://twitter.com/kidehen/status/1098256913932914688" ;
+	skos:related <https://twitter.com/hashtag/NestSecure#this> , <https://twitter.com/hashtag/Privacy#this> , <https://twitter.com/hashtag/IoT#this> , <https://twitter.com/hashtag/Society#this> , <http://data.openlinksw.com/oplweb/glossary-term/NestSecure#this> , <http://data.openlinksw.com/oplweb/glossary-term/Privacy#this> , <https://twitter.com/hashtag/http://data.openlinksw.com/oplweb/glossary-term/IoTthis#this> , <http://data.openlinksw.com/oplweb/glossary-term/Society#this> , <https://smile.amazon.com/dp/039335217X/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/152277890X/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/1720869332/?tag=linkeddata-books-20> .
+
+<https://twitter.com/kidehen/status/1098279889743110150#> a schema:CreativeWork , foaf:Document ;
+	schema:url "https://twitter.com/kidehen/status/1098279889743110150" ;
+	skos:related <https://twitter.com/hashtag/History#this> , <https://twitter.com/hashtag/Programming#this> , <https://twitter.com/hashtag/Python#this> , <https://twitter.com/hashtag/Technology#this> , <http://data.openlinksw.com/oplweb/glossary-term/History#this> , <http://data.openlinksw.com/oplweb/glossary-term/Programming#this> , <https://twitter.com/hashtag/http://data.openlinksw.com/oplweb/glossary-term/Pythonthis#this> , <http://data.openlinksw.com/oplweb/glossary-term/Technology#this> .
+
+<https://twitter.com/OpenLink/status/1098264664134291456#> a schema:CreativeWork , foaf:Document ;
+	schema:url "https://twitter.com/OpenLink/status/1098264664134291456" ;
+	skos:related <https://twitter.com/hashtag/Nigeria#this> , <https://twitter.com/hashtag/Naija30#this> , <https://twitter.com/hashtag/Technology#this> , <https://twitter.com/hashtag/Africa30#this> , <http://data.openlinksw.com/oplweb/glossary-term/Nigeria#this> , <http://data.openlinksw.com/oplweb/glossary-term/Naija30#this> , <https://twitter.com/hashtag/http://data.openlinksw.com/oplweb/glossary-term/Technologythis#this> , <http://data.openlinksw.com/oplweb/glossary-term/Africa30k#this> .
