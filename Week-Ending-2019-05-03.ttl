@@ -57,9 +57,9 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
 
 <https://twitter.com/kidehen/status/1122225478457282560#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1122225478457282560> ;
-	schema:name "Isaac Thani:  Tunisia���s ���Startup Act��� could show other African governments how to support tech ecosystems " ;
+	schema:name "Isaac Thani:  Tunisia's Startup Act could show other African governments how to support tech ecosystems " ;
 	skos:related <https://twitter.com/hashtag/Africa30#this> , <https://twitter.com/hashtag/Smartup#this> , <https://twitter.com/hashtag/Startup#this> , <http://data.openlinksw.com/oplweb/glossary-term/Africa30#this> , <http://data.openlinksw.com/oplweb/glossary-term/Smartup#this> , <http://data.openlinksw.com/oplweb/glossary-term/Startup#this> , <https://www.amazon.com/dp/0801488311/?tag=linkeddata-books-20> , <https://www.amazon.com/dp/198123571X/?tag=linkeddata-books-20> ;
-	rdfs:comment "Isaac Thani:  Tunisia���s ���Startup Act��� could show other African governments how to support tech ecosystems " .
+	rdfs:comment "Isaac Thani:  Tunisia's Startup Act could show other African governments how to support tech ecosystems " .
 
 <https://twitter.com/kidehen/status/1122232687920652288#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1122232687920652288> ;
