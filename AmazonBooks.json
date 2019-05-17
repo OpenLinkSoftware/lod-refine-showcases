@@ -1,0 +1,432 @@
+[
+  {
+    "op": "core/column-split",
+    "description": "Split column hashtags by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\\n",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column hashtags 1 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "[\\t ]+",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "#GraphDBMS #GraphDatabase"
+        ],
+        "to": "#GraphDBMS, #GraphDatabase"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "#SQL #RDBMS"
+        ],
+        "to": "#SQL, #RDBMS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "#GraphDBMS #GraphDatabase #LinkedData #RDF"
+        ],
+        "to": "#GraphDBMS, #GraphDatabase, #LinkedData , RDF"
+      }
+    ]
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column hashtags 1 1 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1 4",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1 4",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " RDF"
+        ],
+        "to": "#RDF"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1 1",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1 1",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "#GraphDBMS #GraphDatabase #LinkedData #SPARQL"
+        ],
+        "to": "#GraphDBMS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1 2",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " #GraphDatabase"
+        ],
+        "to": "#GraphDatabase"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1 2",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " #RDBMS"
+        ],
+        "to": "#RDBMS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1 3",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1 3",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " #LinkedData "
+        ],
+        "to": "#LinkedData "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1 3",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1 3",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " #Oracle"
+        ],
+        "to": "#Oracle"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column hashtags 1 1 4",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hashtags 1 1 4",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " #Middleware"
+        ],
+        "to": "#Middleware"
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.openlinksw.com/data/turtle/books#",
+      "prefixes": [
+        {
+          "name": "amazon",
+          "uri": "http://www.openlinksw.com/schemas/amazon#"
+        },
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Book URI",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Book",
+              "curie": "schema:Book"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Book Title"
+              }
+            },
+            {
+              "uri": "http://schema.org/identifier",
+              "curie": "schema:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ASIN"
+              }
+            },
+            {
+              "uri": "http://schema.org/mainEntityOfPage",
+              "curie": "schema:mainEntityOfPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Page URL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/CreativeWork",
+                    "curie": "schema:CreativeWork"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/identifier",
+              "curie": "schema:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ISBN"
+              }
+            },
+            {
+              "uri": "http://schema.org/sameAs",
+              "curie": "schema:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "sameAs page",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/CreativeWork",
+                    "curie": "schema:CreativeWork"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "sameAs book",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Book",
+                    "curie": "schema:Book"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 1 1 1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "curie": "skos:Concept"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 1 1 2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "curie": "skos:Concept"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 1 1 4",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "curie": "skos:Concept"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

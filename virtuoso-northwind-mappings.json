@@ -1,0 +1,181 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CustomerID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Organization",
+              "curie": "schema:Organization"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://purl.org/dc/terms/identifier",
+              "curie": "dcterms:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CustomerID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#organization-name",
+              "curie": "vcard:organization-name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CompanyName"
+              }
+            },
+            {
+              "uri": "http://schema.org/employee",
+              "curie": "schema:employee",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"employee#\" + md5(value)",
+                "isRowNumberCell": false,
+                "columnName": "ContactName",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+              "curie": "vcard:street-address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#locality",
+              "curie": "vcard:locality",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#region",
+              "curie": "vcard:region",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Region"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#postal-code",
+              "curie": "vcard:postal-code",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PostalCode"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#country-name",
+              "curie": "vcard:country-name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Country"
+              }
+            },
+            {
+              "uri": "http://xmlns.com/foaf/0.1/phone",
+              "curie": "foaf:phone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Phone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"employee#\" + md5(value)",
+          "isRowNumberCell": false,
+          "columnName": "ContactName",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Person",
+              "curie": "schema:Person"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#title",
+              "curie": "vcard:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ContactTitle"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/identifier",
+              "curie": "dcterms:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CustomerID"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
