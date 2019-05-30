@@ -193,7 +193,7 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
 <https://twitter.com/kidehen/status/1122225478457282560#>
     a            schema:CreativeWork , foaf:Document ;
     schema:url   <https://twitter.com/kidehen/status/1122225478457282560> ;
-    schema:name  """Isaac Thani:  Tunisia’s “Startup Act” could show other African governments how to support tech ecosystems""" ;
+    schema:name  """Isaac Thani:  Tunisia's "Startup Act" could show other African governments how to support tech ecosystems""" ;
     skos:related <https://twitter.com/hashtag/Africa30#this> ,
                  <https://twitter.com/hashtag/Smartup#this> ,
                  <https://twitter.com/hashtag/Startup#this> ,
@@ -202,7 +202,7 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
                  <http://data.openlinksw.com/oplweb/glossary-term/Startup#this> ,
                  <https://www.amazon.com/dp/0801488311/?tag=linkeddata-books-20> ,
                  <https://www.amazon.com/dp/198123571X/?tag=linkeddata-books-20> ;
-    rdfs:comment """Isaac Thani:  Tunisia’s “Startup Act” could show other African governments how to support tech ecosystems""" .
+    rdfs:comment """Isaac Thani:  Tunisia's "Startup Act" could show other African governments how to support tech ecosystems""" .
 
 <https://twitter.com/kidehen/status/1122232687920652288#>
     a            schema:CreativeWork , foaf:Document ;
@@ -228,7 +228,7 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
 <https://twitter.com/kidehen/status/1122652633674801152#>
     a            schema:CreativeWork , foaf:Document ;
     schema:url   <https://twitter.com/kidehen/status/1122652633674801152> ;
-    schema:name  """SciHi:  On April 28, 1906, Kurt Gödel was born. He was one of the most significant logicians of all time.""" ;
+    schema:name  """SciHi:  On April 28, 1906, Kurt Goedel was born. He was one of the most significant logicians of all time.""" ;
     skos:related <https://twitter.com/hashtag/History#this> ,
                  <https://twitter.com/hashtag/LinkedData#this> ,
                  <https://twitter.com/hashtag/DBpedia#this> ,
@@ -244,7 +244,7 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
                  <https://smile.amazon.com/dp/1617290394/?tag=linkeddata-books-20> ,
                  <https://smile.amazon.com/dp/1484210506/?tag=linkeddata-books-20> ,
                  <https://smile.amazon.com/dp/B00S15F0I8/?tag=linkeddata-books-20> ;
-    rdfs:comment """SciHi:  On April 28, 1906, Kurt Gödel was born. He was one of the most significant logicians of all time.""" .
+    rdfs:comment """SciHi:  On April 28, 1906, Kurt Goedel was born. He was one of the most significant logicians of all time.""" .
 
 <https://twitter.com/kidehen/status/1122905425811267585#>
     a            schema:CreativeWork , foaf:Document ;
@@ -871,7 +871,8 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
                  <https://smile.amazon.com/dp/1617290394/?tag=linkeddata-books-20> ;
     rdfs:comment """Harmonizing Disparate RDBMS Data using the built-in Reasoning and Inference functionality of our #VirtuosoRDBMS.""" .
 
-<https://twitter.com/kidehen/status/1122221846106128384#> skos:related <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ,
+<https://twitter.com/kidehen/status/1122221846106128384#>
+    skos:related <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ,
                  <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabases#this> ,
                  <http://data.openlinksw.com/oplweb/glossary-term/MultiModelRDBMS#this> ,
                  <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> ,
@@ -908,7 +909,7 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
 <https://www.linkedin.com/feed/update/urn:li:activity:6528927528780857344#>
     a            schema:CreativeWork , foaf:Document ;
     schema:url   <https://www.linkedin.com/feed/update/urn:li:activity:6528927528780857344> ;
-    schema:name  """Virtuoso’s features offer you the ability to exploit #DataVirtualization and #DataIntegration functionality at massive scales. Likewise, it also offers the same capabilities for #SmallData interaction patterns where data snippets are assembled and meshed progressively -- as part of a #SPARQL Query solution production pipeline.""" ;
+    schema:name  """Virtuoso's features offer you the ability to exploit #DataVirtualization and #DataIntegration functionality at massive scales. Likewise, it also offers the same capabilities for #SmallData interaction patterns where data snippets are assembled and meshed progressively -- as part of a #SPARQL Query solution production pipeline.""" ;
     skos:related <https://twitter.com/hashtag/DataVirtualization#this> ,
                  <https://twitter.com/hashtag/DataIntegration#this> ,
                  <https://twitter.com/hashtag/SmallData#this> ,
@@ -934,7 +935,7 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
                  <https://smile.amazon.com/dp/0127999574/?tag=linkeddata-books-20> ,
                  <https://smile.amazon.com/dp/1449371434/?tag=linkeddata-books-20> ,
                  <https://smile.amazon.com/dp/1617290394/?tag=linkeddata-books-20> ;
-    rdfs:comment """Virtuoso’s features offer you the ability to exploit #DataVirtualization and #DataIntegration functionality at massive scales. Likewise, it also offers the same capabilities for #SmallData interaction patterns where data snippets are assembled and meshed progressively -- as part of a #SPARQL Query solution production pipeline.""" .
+    rdfs:comment """Virtuoso's features offer you the ability to exploit #DataVirtualization and #DataIntegration functionality at massive scales. Likewise, it also offers the same capabilities for #SmallData interaction patterns where data snippets are assembled and meshed progressively -- as part of a #SPARQL Query solution production pipeline.""" .
 
 <https://twitter.com/kidehen/status/1123600643602702336#
     a            schema:CreativeWork , foaf:Document ;
