@@ -70,14 +70,14 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
 <https://twitter.com/TEDTalks/status/1121909682514403329#>
     a            schema:CreativeWork , foaf:Document ;
     schema:url   <https://twitter.com/TEDTalks/status/1121909682514403329> ;
-    schema:name  """TED Talks:  "Public speaking is the most impactful way to share who you are and what you care about."""" ;
+    schema:name  """TED Talks:  "Public speaking is the most impactful way to share who you are and what you care about.""" ;
     skos:related <https://twitter.com/hashtag/TEDTalks#this> ,
                  <https://twitter.com/hashtag/PublicSpeaking#this> ,
                  <https://twitter.com/hashtag/Impactful#this> ,
                  <https://smile.amazon.com/dp/1250041120/?tag=linkeddata-books-20> ,
                  <https://smile.amazon.com/dp/1250071550/?tag=linkeddata-books-20> ,
                  <https://smile.amazon.com/dp/1472228049/?tag=linkeddata-books-20> ;
-    rdfs:comment """TED Talks:  "Public speaking is the most impactful way to share who you are and what you care about."""" .
+    rdfs:comment """TED Talks:  "Public speaking is the most impactful way to share who you are and what you care about.""" .
 
 <https://twitter.com/kidehen/status/1122215142354239490#>
     a            schema:CreativeWork , foaf:Document ;
@@ -605,7 +605,6 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
 
 <https://twitter.com/kidehen/status/1123608380210393088#>
     a            schema:CreativeWork , foaf:Document ;
-    https://twitter.com/kidehen/status/1123608380210393088> ;
     schema:name  """Yep! Using our @datasniff browser extension I was able to produce: https://tinyurl.com/y2s3o789  via the following steps""" ;
     skos:related <https://twitter.com/hashtag/FacetedBrowsing#this> ,
                  <https://twitter.com/hashtag/LinkedData#this> ,
@@ -937,7 +936,7 @@ On April 26, 1889, Austrian-British philosopher Ludwig Wittgenstein was born""" 
                  <https://smile.amazon.com/dp/1617290394/?tag=linkeddata-books-20> ;
     rdfs:comment """Virtuoso's features offer you the ability to exploit #DataVirtualization and #DataIntegration functionality at massive scales. Likewise, it also offers the same capabilities for #SmallData interaction patterns where data snippets are assembled and meshed progressively -- as part of a #SPARQL Query solution production pipeline.""" .
 
-<https://twitter.com/kidehen/status/1123600643602702336#
+<https://twitter.com/kidehen/status/1123600643602702336#>
     a            schema:CreativeWork , foaf:Document ;
     schema:url   <https://twitter.com/kidehen/status/1123600643602702336> ;
     schema:name  """Happy birthday to #BASIC, the programming language launched @Dartmouth #otd in 1964 to encourage non-STEM students to use computers:""" ;
