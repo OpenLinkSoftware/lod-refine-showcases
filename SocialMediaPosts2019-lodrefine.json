@@ -7153,32 +7153,6 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column Amazon URL 2 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "Amazon URL 2",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Amazon URL 3 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "Amazon URL 3",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
     "description": "Text transform on cells in column glossary topic ids 6 using expression grel:replace(value,\" \",\"\")",
     "engineConfig": {
       "facets": [],
@@ -7244,58 +7218,6 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column Amazon URL 4 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "Amazon URL 4",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Amazon URL 4 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "Amazon URL 4",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Amazon URL 5 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "Amazon URL 5",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Amazon URL 6 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "Amazon URL 6",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
     "description": "Text transform on cells in column glossary topic ids 11 using expression grel:replace(value,\" \",\"\")",
     "engineConfig": {
       "facets": [],
@@ -7341,19 +7263,6 @@
       "mode": "row-based"
     },
     "columnName": "glossary topic ids 14",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Amazon URL 7 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "Amazon URL 7",
     "expression": "grel:replace(value,\" \",\"\")",
     "onError": "keep-original",
     "repeat": false,
