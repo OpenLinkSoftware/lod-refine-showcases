@@ -19,9 +19,9 @@
 
 <https://twitter.com/kidehen/status/1095105645064392704#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1095105645064392704> ;
-	schema:name "When will Africa���s Elite Grow Up?" ;
+	schema:name "When will Africa's Elite Grow Up?" ;
 	skos:related <https://twitter.com/hashtag/Africa30#this> , <https://twitter.com/hashtag/Naija30#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/TEDtalks#this> , <http://data.openlinksw.com/oplweb/glossary-term/Africa30#this> , <http://data.openlinksw.com/oplweb/glossary-term/Naija30#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/TedTalks#this> , <https://smile.amazon.com/dp/1617290394/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/1484210506/?tag=linkeddata-books-20> , <https://smile.amazon.com/dp/B00S15F0I8/?tag=linkeddata-books-20> ;
-	rdfs:comment "When will Africa���s Elite Grow Up?" .
+	rdfs:comment "When will Africa's Elite Grow Up?" .
 
 <https://twitter.com/kidehen/status/1094987086845886464#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1094987086845886464> ;
