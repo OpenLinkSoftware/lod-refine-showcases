@@ -1,11 +1,5 @@
 [
   {
-    "op": "core/column-rename",
-    "description": "Rename column Amazon Book URL to Amazon URL",
-    "oldColumnName": "Amazon Book URL",
-    "newColumnName": "Amazon URL"
-  },
-  {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
@@ -4381,71 +4375,6 @@
     "repeatCount": 10
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column glossary topic ids 6 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "glossary topic ids 6",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column glossary topic ids 7 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "glossary topic ids 7",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column glossary topic ids 8 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "glossary topic ids 8",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column glossary topic ids 9 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "glossary topic ids 9",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column glossary topic ids 10 using expression grel:replace(value,\" \",\"\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "glossary topic ids 10",
-    "expression": "grel:replace(value,\" \",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
@@ -5615,5 +5544,1741 @@
         }
       ]
     }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://ecrm.intranet.openlinksw.com/us_mis_csv#",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value+\"#\"",
+          "isRowNumberCell": false,
+          "columnName": "Post URI",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/CreativeWork",
+              "curie": "schema:CreativeWork"
+            },
+            {
+              "uri": "http://xmlns.com/foaf/0.1/Document",
+              "curie": "foaf:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/url",
+              "curie": "schema:url",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Post URI",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Post Description"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(replace(value,\" \",\"\"),\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 6",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 7",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 8",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 9",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 10",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 11",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 12",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 6",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 7",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 8",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 9",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 10",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://ecrm.intranet.openlinksw.com/us_mis_csv#",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value+\"#\"",
+          "isRowNumberCell": false,
+          "columnName": "Post URI",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/CreativeWork",
+              "curie": "schema:CreativeWork"
+            },
+            {
+              "uri": "http://xmlns.com/foaf/0.1/Document",
+              "curie": "foaf:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/url",
+              "curie": "schema:url",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Post URI",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "About"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(replace(value,\" \",\"\"),\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 6",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 7",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 8",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 9",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 10",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 11",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 12",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 6",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 7",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 8",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 9",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 10",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#comment",
+              "curie": "rdfs:comment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Post Description"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://ecrm.intranet.openlinksw.com/us_mis_csv#",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value+\"#\"",
+          "isRowNumberCell": false,
+          "columnName": "Post URI",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/CreativeWork",
+              "curie": "schema:CreativeWork"
+            },
+            {
+              "uri": "http://xmlns.com/foaf/0.1/Document",
+              "curie": "foaf:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/url",
+              "curie": "schema:url",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Post URI",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "About"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(replace(value,\" \",\"\"),\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 6",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 7",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 8",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 9",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 10",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 11",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 12",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 6",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 7",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 8",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 9",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 10",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#comment",
+              "curie": "rdfs:comment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Post Description"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://ecrm.intranet.openlinksw.com/us_mis_csv#",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value+\"#\"",
+          "isRowNumberCell": false,
+          "columnName": "Post URI",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/CreativeWork",
+              "curie": "schema:CreativeWork"
+            },
+            {
+              "uri": "http://xmlns.com/foaf/0.1/Document",
+              "curie": "foaf:Document"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/url",
+              "curie": "schema:url",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Post URI",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "About"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(replace(value,\" \",\"\"),\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 6",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 7",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 8",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 9",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 10",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 11",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"https://twitter.com/hashtag/\"+replace(value,\"#\",\"\")+\"#this\"",
+                "isRowNumberCell": false,
+                "columnName": "hashtags 12",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 6",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 7",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 8",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 9",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "glossary topic ids 10",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#related",
+              "curie": "skos:related",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "Amazon URL 5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#comment",
+              "curie": "rdfs:comment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "About"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 6 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 6",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 7 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 7",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 8 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 8",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 9 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 9",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 10 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 10",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 11 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 11",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 12 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 12",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 13 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 13",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 14 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 14",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column glossary topic ids 15 using expression grel:replace(value,\" \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "glossary topic ids 15",
+    "expression": "grel:replace(value,\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
