@@ -71,9 +71,9 @@ No, there are no literal Subjects or Predicates in #RDF. """ .
 
 <https://twitter.com/kidehen/status/1150452492800548864#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1150452492800548864> ;
-	schema:name "Replying to @kabulkurniawan:  SeeAlso: https://twitter.com/kidehen/status/1150418310938419203 ���, you can access the source code of the #HTML form via view-source etc.." ;
+	schema:name "Replying to @kabulkurniawan:  SeeAlso: https://twitter.com/kidehen/status/1150418310938419203 ..., you can access the source code of the #HTML form via view-source etc.." ;
 	skos:related <https://twitter.com/hashtag/HTML#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML#this> ;
-	rdfs:comment "Replying to @kabulkurniawan:  SeeAlso: https://twitter.com/kidehen/status/1150418310938419203 ���, you can access the source code of the #HTML form via view-source etc.." .
+	rdfs:comment "Replying to @kabulkurniawan:  SeeAlso: https://twitter.com/kidehen/status/1150418310938419203 ..., you can access the source code of the #HTML form via view-source etc.." .
 
 <https://twitter.com/shewardmills/status/1150718199815639041#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/shewardmills/status/1150718199815639041> ;
@@ -149,9 +149,9 @@ No, there are no literal Subjects or Predicates in #RDF. """ .
 
 <https://twitter.com/kidehen/status/1151544562592157701#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1151544562592157701> ;
-	schema:name "Replying to @c_wood @ashep_15 and  3 others:  Of course. See: http://linkeddata.uriburner.com/describe/?url=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Ontology&invfp=IFP_OFF&sas=SAME_AS_OFF&distinct=1 ���" ;
+	schema:name "Replying to @c_wood @ashep_15 and  3 others:  Of course. See: http://linkeddata.uriburner.com/describe/?url=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Ontology&invfp=IFP_OFF&sas=SAME_AS_OFF&distinct=1 ..." ;
 	skos:related <https://twitter.com/hashtag/Ontology#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/AI#this> , <https://twitter.com/hashtag/ML#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/CDO#this> , <https://twitter.com/hashtag/CTO#this> , <https://twitter.com/hashtag/CIO#this> , <https://twitter.com/hashtag/MDM#this> , <http://data.openlinksw.com/oplweb/glossary-term/Ontology#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/AI#this> , <http://data.openlinksw.com/oplweb/glossary-term/ML#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/CTO#this> , <http://data.openlinksw.com/oplweb/glossary-term/CIO#this> , <http://data.openlinksw.com/oplweb/glossary-term/MDM#this> ;
-	rdfs:comment "Replying to @c_wood @ashep_15 and  3 others:  Of course. See: http://linkeddata.uriburner.com/describe/?url=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Ontology&invfp=IFP_OFF&sas=SAME_AS_OFF&distinct=1 ���" .
+	rdfs:comment "Replying to @c_wood @ashep_15 and  3 others:  Of course. See: http://linkeddata.uriburner.com/describe/?url=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Ontology&invfp=IFP_OFF&sas=SAME_AS_OFF&distinct=1 ..." .
 
 <https://twitter.com/kidehen/status/1151547589248135168#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1151547589248135168> ;
@@ -292,8 +292,8 @@ No, there are no literal Subjects or Predicates in #RDF. """ .
 
 <https://twitter.com/shewardmills/status/1151205508000432129#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/shewardmills/status/1151205508000432129> ;
-	schema:name "Replying to @FrankVanHarmele:  @OpenLink (see https://community.openlinksw.com/t/solving-product-management-challenges-via-a-knowledge-graph-that-manifests-as-a-semantic-web-of-linked-data/363 ��� ) KG used at EMBL_EBI ( @emblebi ) , Biblioth��que BnF (@laBnF) , @Dbpedia" ;
-	rdfs:comment "Replying to @FrankVanHarmele:  @OpenLink (see https://community.openlinksw.com/t/solving-product-management-challenges-via-a-knowledge-graph-that-manifests-as-a-semantic-web-of-linked-data/363 ��� ) KG used at EMBL_EBI ( @emblebi ) , Biblioth��que BnF (@laBnF) , @Dbpedia" .
+	schema:name "Replying to @FrankVanHarmele:  @OpenLink (see https://community.openlinksw.com/t/solving-product-management-challenges-via-a-knowledge-graph-that-manifests-as-a-semantic-web-of-linked-data/363 ... ) KG used at EMBL_EBI ( @emblebi ) , Biblioth��que BnF (@laBnF) , @Dbpedia" ;
+	rdfs:comment "Replying to @FrankVanHarmele:  @OpenLink (see https://community.openlinksw.com/t/solving-product-management-challenges-via-a-knowledge-graph-that-manifests-as-a-semantic-web-of-linked-data/363 ... ) KG used at EMBL_EBI ( @emblebi ) , Biblioth��que BnF (@laBnF) , @Dbpedia" .
 
 <https://www.linkedin.com/feed/update/urn:li:activity:6556840982183202816#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://www.linkedin.com/feed/update/urn:li:activity:6556840982183202816> ;
@@ -321,9 +321,9 @@ No, there are no literal Subjects or Predicates in #RDF. """ .
 
 <https://twitter.com/kidehen/status/1152223425848651777#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1152223425848651777> ;
-	schema:name "\"I found your data. It's for sale.\" -- https://www.washingtonpost.com/technology/2019/07/18/i-found-your-data-its-sale/ ��� This problem is fixable, once the nature of #data is understood." ;
+	schema:name "\"I found your data. It's for sale.\" -- https://www.washingtonpost.com/technology/2019/07/18/i-found-your-data-its-sale/ ... This problem is fixable, once the nature of #data is understood." ;
 	skos:related <https://twitter.com/hashtag/Data#this> , <https://twitter.com/hashtag/SolidHelps#this> , <https://twitter.com/hashtag/SurveillanceCapitalism#this> , <http://data.openlinksw.com/oplweb/glossary-term/Data#this> , <http://data.openlinksw.com/oplweb/glossary-term/SolidHelps#this> , <http://data.openlinksw.com/oplweb/glossary-term/SurveillanceCapitalism#this> ;
-	rdfs:comment "\"I found your data. It's for sale.\" -- https://www.washingtonpost.com/technology/2019/07/18/i-found-your-data-its-sale/ ��� This problem is fixable, once the nature of #data is understood." .
+	rdfs:comment "\"I found your data. It's for sale.\" -- https://www.washingtonpost.com/technology/2019/07/18/i-found-your-data-its-sale/ ... This problem is fixable, once the nature of #data is understood." .
 
 <https://twitter.com/kidehen/status/1152240053432856581#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/kidehen/status/1152240053432856581> ;
