@@ -347,13 +347,6 @@ Here's how our #VirtuosoRDBMS enables Airtable function as a #SemanticWeb of #Li
 	skos:related <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/RDBMS#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> ;
 	rdfs:comment "Tips and Tricks page for our #VirtuosoRDBMS ." .
 
-<https://promo.bankofamerica.com/businessuloc50#> a schema:CreativeWork , foaf:Document ;
-	schema:url <https://promo.bankofamerica.com/businessuloc50> ;
-	schema:name """Replying to 
-@shellypalmer:  As I see it, the problem is that #AI has become the basis for recommendations derived from profile data controlled by the #SocialMedia provider. That model is flawed, and ultimately quite dangerous.""" ;
-	skos:related <https://twitter.com/hashtag/AI#this> , <https://twitter.com/hashtag/SocialMedia#this> , <https://twitter.com/hashtag/SolidHelps#this> , <http://data.openlinksw.com/oplweb/glossary-term/AI#this> , <http://data.openlinksw.com/oplweb/glossary-term/Hyperlink#this> , <http://data.openlinksw.com/oplweb/glossary-term/SocialMedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/SolidHelps#this> ;
-	rdfs:comment """Replying to 
-@shellypalmer:  As I see it, the problem is that #AI has become the basis for recommendations derived from profile data controlled by the #SocialMedia provider. That model is flawed, and ultimately quite dangerous.""" .
 
 <https://twitter.com/OpenLink/status/1162423144067620864#> a schema:CreativeWork , foaf:Document ;
 	schema:url <https://twitter.com/OpenLink/status/1162423144067620864> ;
