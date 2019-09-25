@@ -1,0 +1,1076 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<https://twitter.com/kidehen/status/1173666583924944896#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1173666583924944896> ;
+	schema:name "Retweet @ValaAfshar:  12 people would have gone online in India for the first time" ;
+	skos:related <https://twitter.com/hashtag/India#this> , <https://twitter.com/hashtag/MarketResearch#this> , <https://twitter.com/hashtag/Economy#this> , <https://twitter.com/hashtag/GlobalEconomy#this> , <http://data.openlinksw.com/oplweb/glossary-term/India#this> , <http://data.openlinksw.com/oplweb/glossary-term/MarketResearch#this> , <http://data.openlinksw.com/oplweb/glossary-term/Economy#this> , <http://data.openlinksw.com/oplweb/glossary-term/GlobalEconomy#this> ;
+	rdfs:comment "Retweet @ValaAfshar:  12 people would have gone online in India for the first time" .
+
+<https://twitter.com/kidehen/status/1173986956205842433#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1173986956205842433> ;
+	schema:name "The #Web is mankind's ultimate #Middleware. It's #REST-ful interaction pattern is fundamentally about loose-coupling of #Data that rides the power of a #Hyperlink functioning as a #SuperKey. This platform is \"deceptively simple\" and has room for a variety of user profiles.  Retweet @judell" ;
+	skos:related <https://twitter.com/hashtag/Web#this> , <https://twitter.com/hashtag/Middleware#this> , <https://twitter.com/hashtag/REST#this> , <https://twitter.com/hashtag/Data#this> , <https://twitter.com/hashtag/Hyperlink#this> , <http://ecrm.intranet.openlinksw.com/us_mis_csv#https%3A%2F%2Ftwitter.com%2Fhashtag%2FSuperKey.+%23this> , <http://data.openlinksw.com/oplweb/glossary-term/Web#this> , <http://data.openlinksw.com/oplweb/glossary-term/Middleware#this> , <http://data.openlinksw.com/oplweb/glossary-term/REST#this> , <http://data.openlinksw.com/oplweb/glossary-term/Data#this> , <http://data.openlinksw.com/oplweb/glossary-term/Hyperlink#this> , <http://data.openlinksw.com/oplweb/glossary-term/SuperKey#this> ;
+	rdfs:comment "The #Web is mankind's ultimate #Middleware. It's #REST-ful interaction pattern is fundamentally about loose-coupling of #Data that rides the power of a #Hyperlink functioning as a #SuperKey. This platform is \"deceptively simple\" and has room for a variety of user profiles.  Retweet @judell" .
+
+<https://twitter.com/kidehen/status/1174023781439954945#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174023781439954945> ;
+	schema:name """ Replying to 
+@EmekaOkoye
+ 
+@asemota
+ and 3 others
+Domain Experts and App Developers collectively produce useful Apps & Services. One without the other produces a much lesser final product, 100% of the time :) """ ;
+	skos:related <https://twitter.com/hashtag/Coding#this> , <https://twitter.com/hashtag/Programming#this> , <https://twitter.com/hashtag/DomainExpertise#this> , <http://data.openlinksw.com/oplweb/glossary-term/Coding#this> , <http://data.openlinksw.com/oplweb/glossary-term/Programming#this> , <http://data.openlinksw.com/oplweb/glossary-term/DomainExpertise#this> ;
+	rdfs:comment """ Replying to 
+@EmekaOkoye
+ 
+@asemota
+ and 3 others
+Domain Experts and App Developers collectively produce useful Apps & Services. One without the other produces a much lesser final product, 100% of the time :) """ .
+
+<https://twitter.com/shewardmills/status/1173622758435119106#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/shewardmills/status/1173622758435119106> ;
+	schema:name "EU_DataPortal:  Slovakia" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> ;
+	rdfs:comment "EU_DataPortal:  Slovakia" .
+
+<https://twitter.com/shewardmills/status/1173940641782517760#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/shewardmills/status/1173940641782517760> ;
+	schema:name "EU_DataPortal:  Slovenia" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> ;
+	rdfs:comment "EU_DataPortal:  Slovenia" .
+
+<https://twitter.com/dan_hmills/status/1173604327086284805#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/dan_hmills/status/1173604327086284805> ;
+	schema:name """(1/3)
+Fun Fact:
+
+You can share a SPARQL query from an @OpenLink
+  Virtuoso #SPARQL Editor instance by clicking on the \"Permalink\" hyperlink ...""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabases#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <https://twitter.com/hashtag/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabases#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> ;
+	rdfs:comment """(1/3)
+Fun Fact:
+
+You can share a SPARQL query from an @OpenLink
+  Virtuoso #SPARQL Editor instance by clicking on the \"Permalink\" hyperlink ...""" .
+
+<https://twitter.com/kidehen/status/1174063456942723077#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174063456942723077> ;
+	schema:name """Replying to 
+@SmartCityexpo
+ and 
+@BCN_digital
+There's also a cool #OpenData effort.
+
+See: https://opendata-ajuntament.barcelona.cat/en/analytics""" ;
+	skos:related <https://twitter.com/hashtag/OpenData#this> , <https://twitter.com/hashtag/Barcelona#this> , <http://data.openlinksw.com/oplweb/glossary-term/OpenData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Barcelona#this> ;
+	rdfs:comment """Replying to 
+@SmartCityexpo
+ and 
+@BCN_digital
+There's also a cool #OpenData effort.
+
+See: https://opendata-ajuntament.barcelona.cat/en/analytics""" .
+
+<https://twitter.com/kidehen/status/1174066642734735361#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174066642734735361> ;
+	schema:name "DBPedia Resouce:  Mary Somerville from @barabasi:  World's first scientist" ;
+	skos:related <https://twitter.com/hashtag/DidYouKnow#this> , <https://twitter.com/hashtag/Scientist#this> , <https://twitter.com/hashtag/History#this> , <https://twitter.com/hashtag/DBpedia#this> , <https://twitter.com/hashtag/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/DidYouKnow#this> , <http://data.openlinksw.com/oplweb/glossary-term/Scientist#this> , <http://data.openlinksw.com/oplweb/glossary-term/History#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBPedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> ;
+	rdfs:comment "DBPedia Resouce:  Mary Somerville from @barabasi:  World's first scientist" .
+
+<https://twitter.com/kidehen/status/1174074694179393537#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174074694179393537> ;
+	schema:name "#SPARQL offers a wonderful SAMPLE() aggregate function for building cool indexes that aid follow-your-nose exploration via #LinkedData docs. Example: https://tinyurl.com/y4gj4l32 Products, Restaurants, etc from a #Tourism #KnowledgeGraph." ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/Tourism#this> , <https://twitter.com/hashtag/KnowledgeGraph.#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/DidYouKnow#this> , <http://data.openlinksw.com/oplweb/glossary-term/Scientist#this> , <http://data.openlinksw.com/oplweb/glossary-term/History#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBPedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> ;
+	rdfs:comment "#SPARQL offers a wonderful SAMPLE() aggregate function for building cool indexes that aid follow-your-nose exploration via #LinkedData docs. Example: https://tinyurl.com/y4gj4l32 Products, Restaurants, etc from a #Tourism #KnowledgeGraph." .
+
+<https://twitter.com/kidehen/status/1174317393285439490#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174317393285439490> ;
+	schema:name """Replying to 
+@xniyi
+ 
+@asemota
+ and 4 others
+Yep!
+
+Codifying #knowledge is the key to building apps equipped with competitive longevity -- which is what the notion of a #SemanticWeb enables.
+
+It is ultimately always about a noisy hype-driven sprint (shallow domain expertise) vs a long-tail marathon (deep domain expertise).""" ;
+	skos:related <https://twitter.com/hashtag/Knowledge#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/Knowledge#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ;
+	rdfs:comment """Replying to 
+@xniyi
+ 
+@asemota
+ and 4 others
+Yep!
+
+Codifying #knowledge is the key to building apps equipped with competitive longevity -- which is what the notion of a #SemanticWeb enables.
+
+It is ultimately always about a noisy hype-driven sprint (shallow domain expertise) vs a long-tail marathon (deep domain expertise).""" .
+
+<https://twitter.com/kidehen/status/1174323158255591424#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174323158255591424> ;
+	schema:name "#LinkedData is crucial to creating a #KnowledgeGraph that manifests as #SemanticWeb, period. The #Web in all of this is about a #Hyperlink-based Entity Relationship Graph that's navigable by both humans and machines using de-reference (i.e., lookups)." ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/Web#this> , <https://twitter.com/hashtag/Hyperlink#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/Web#this> , <http://data.openlinksw.com/oplweb/glossary-term/Hyperlink#this> ;
+	rdfs:comment "#LinkedData is crucial to creating a #KnowledgeGraph that manifests as #SemanticWeb, period. The #Web in all of this is about a #Hyperlink-based Entity Relationship Graph that's navigable by both humans and machines using de-reference (i.e., lookups)." .
+
+<https://twitter.com/kidehen/status/1174323829948260352#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174323829948260352> ;
+	schema:name """@OpenLink
+ has opened up a new community forum channel focused on #LinkedData with the sole aim of teaching anyone that's interested about this powerful concept via live examples.""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/CDO#this> , <https://twitter.com/hashtag/DataOps#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataOps#this> ;
+	rdfs:comment """@OpenLink
+ has opened up a new community forum channel focused on #LinkedData with the sole aim of teaching anyone that's interested about this powerful concept via live examples.""" .
+
+<https://twitter.com/kidehen/status/1174330675459252225#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174330675459252225> ;
+	schema:name "Actually, here is a very basic depiction of an Entity Relationship Graph constructed in line with #LinkedData principles. #GraphDatabase #KnowledgeGraph #CDO #DataOps" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/CDO#this> , <https://twitter.com/hashtag/DataOps#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataOps#this> ;
+	rdfs:comment "Actually, here is a very basic depiction of an Entity Relationship Graph constructed in line with #LinkedData principles. #GraphDatabase #KnowledgeGraph #CDO #DataOps" .
+
+<https://twitter.com/kidehen/status/1174336300591304707#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174336300591304707> ;
+	schema:name """Replying to 
+@neumarcx
+Folks in \"my network\" that still find the basic concepts and virtues of #LinkedData somewhat mercurial.
+
+How do I know that? By analyzing the content of theirs tweets e.g., chatter about problems easily solved by understanding and exploiting Linked Data principles.""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Replying to 
+@neumarcx
+Folks in \"my network\" that still find the basic concepts and virtues of #LinkedData somewhat mercurial.
+
+How do I know that? By analyzing the content of theirs tweets e.g., chatter about problems easily solved by understanding and exploiting Linked Data principles.""" .
+
+<https://twitter.com/kidehen/status/1174337284331753475#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174337284331753475> ;
+	schema:name """Replying to 
+@EmekaOkoye
+Yes!
+
+Basically, you simply document the problem. 
+
+What's magical about a #SemanticWeb constructed from #LinkedData is that the Documentation == The Code :) 
+
+A Doc is comprised of a collection of simple sentences where a #hyperlink identifies the subject, predicate, and object.""" ;
+	skos:related <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/Hyperlink#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Hyperlink#this> ;
+	rdfs:comment """Replying to 
+@EmekaOkoye
+Yes!
+
+Basically, you simply document the problem. 
+
+What's magical about a #SemanticWeb constructed from #LinkedData is that the Documentation == The Code :) 
+
+A Doc is comprised of a collection of simple sentences where a #hyperlink identifies the subject, predicate, and object.""" .
+
+<https://twitter.com/kidehen/status/1174337722124820480#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174337722124820480> ;
+	schema:name """Replying to 
+@kidehen
+ and 
+@EmekaOkoye
+#Fix For #Web grammer bots:
+
+A Doc comprises a collection of simple sentences where a #hyperlink identifies the subject, predicate, and object :)""" ;
+	skos:related <https://twitter.com/hashtag/Fix#this> , <https://twitter.com/hashtag/Web#this> , <https://twitter.com/hashtag/Hyperlink#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/Fix#this> , <http://data.openlinksw.com/oplweb/glossary-term/Web#this> , <http://data.openlinksw.com/oplweb/glossary-term/Hyperlink#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ and 
+@EmekaOkoye
+#Fix For #Web grammer bots:
+
+A Doc comprises a collection of simple sentences where a #hyperlink identifies the subject, predicate, and object :)""" .
+
+<https://twitter.com/kidehen/status/1174349289579077635#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174349289579077635> ;
+	schema:name """Replying to 
+@westurner
+I hear you! 
+
+It isn't about new Query Languages for operating on #data. It is about the very nature of #StructuredData leveraging #Web magic. 
+
+Data silo-fication is the problem. 
+
+I posted earlier today about a #LinkedData channel where folks can revisit the basics :)""" ;
+	skos:related <https://twitter.com/hashtag/Data#this> , <https://twitter.com/hashtag/StructuredData#this> , <https://twitter.com/hashtag/Web#this> , <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Data#this> , <http://data.openlinksw.com/oplweb/glossary-term/StructuredData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Web#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Replying to 
+@westurner
+I hear you! 
+
+It isn't about new Query Languages for operating on #data. It is about the very nature of #StructuredData leveraging #Web magic. 
+
+Data silo-fication is the problem. 
+
+I posted earlier today about a #LinkedData channel where folks can revisit the basics :)""" .
+
+<https://twitter.com/kidehen/status/1174351919231524864#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174351919231524864> ;
+	schema:name "#LinkedData is like wine. Example: http://ontologi.es/rail/void.xhtml#this That page has existed for years, its utility and importance grows as each year goes by. Same applies to the #LODCloud -- a stealthily constructed #KnowledegGraph where data is constructed using hyperlinks." ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/LODCloud#this> , <https://twitter.com/hashtag/KnowledegGraph#this> , <https://twitter.com/hashtag/Railways#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/Railways#this> ;
+	rdfs:comment "#LinkedData is like wine. Example: http://ontologi.es/rail/void.xhtml#this That page has existed for years, its utility and importance grows as each year goes by. Same applies to the #LODCloud -- a stealthily constructed #KnowledegGraph where data is constructed using hyperlinks." .
+
+<https://twitter.com/kidehen/status/1174356554184908800#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174356554184908800> ;
+	schema:name """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Good question!
+
+Data Artisans, Subject Matter Experts (Dept. / Project owners) etc come to mind, at first blush. 
+
+Thinking about it further, this is more to do with role evolution by way of #DataCentric skills development and refinement, IMHO.""" ;
+	skos:related <https://twitter.com/hashtag/DataCentric#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataCentric#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> ;
+	rdfs:comment """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Good question!
+
+Data Artisans, Subject Matter Experts (Dept. / Project owners) etc come to mind, at first blush. 
+
+Thinking about it further, this is more to do with role evolution by way of #DataCentric skills development and refinement, IMHO.""" .
+
+<https://twitter.com/kidehen/status/1174358024024133633#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174358024024133633> ;
+	schema:name """Replying to 
+@davewiner
+The challenge is getting to a place where app-logic and #data storage are loosely-coupled by apps (e.g., search engines).
+
+End-users should control preferences (profile) data while apps should seek access permission.
+
+#SolidHelps this kind of #RWW via #LinkedData :)""" ;
+	skos:related <https://twitter.com/hashtag/Data#this> , <https://twitter.com/hashtag/SolidHelps#this> , <https://twitter.com/hashtag/RWW#this> , <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Data#this> , <http://data.openlinksw.com/oplweb/glossary-term/SolidHelps#this> , <http://data.openlinksw.com/oplweb/glossary-term/RWW#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Replying to 
+@davewiner
+The challenge is getting to a place where app-logic and #data storage are loosely-coupled by apps (e.g., search engines).
+
+End-users should control preferences (profile) data while apps should seek access permission.
+
+#SolidHelps this kind of #RWW via #LinkedData :)""" .
+
+<https://twitter.com/kidehen/status/1174360662656671745#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174360662656671745> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 5 others
+Historically, Subject Matter (or Domain) Experts are a zillion miles away from the act of #Knowledge encoding. 
+
+Courtesy of #RDF deployed using #LinkedData principles, we can use the documentation-pattern as basis for inclusive coding.
+
+#RDFTurtle looks like human sentences :)""" ;
+	skos:related <https://twitter.com/hashtag/Knowledge#this> , <https://twitter.com/hashtag/RDF#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/RDFTurtle#this> , <http://data.openlinksw.com/oplweb/glossary-term/Knowledge#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDF#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDFTurtle#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 5 others
+Historically, Subject Matter (or Domain) Experts are a zillion miles away from the act of #Knowledge encoding. 
+
+Courtesy of #RDF deployed using #LinkedData principles, we can use the documentation-pattern as basis for inclusive coding.
+
+#RDFTurtle looks like human sentences :)""" .
+
+<https://twitter.com/kidehen/status/1174362421546364928#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174362421546364928> ;
+	schema:name """@datasniff
+ shedding a light more light on the wine-like nature of #LinkedData demonstrated by that page about UK Railways.""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/RDFa#this> , <https://twitter.com/hashtag/HTML5#this> , <https://twitter.com/hashtag/Manchester#this> , <https://twitter.com/hashtag/Trains#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDFa#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML5#this> , <http://data.openlinksw.com/oplweb/glossary-term/Manchester#this> , <http://data.openlinksw.com/oplweb/glossary-term/Trains#this> ;
+	rdfs:comment """@datasniff
+ shedding a light more light on the wine-like nature of #LinkedData demonstrated by that page about UK Railways.""" .
+
+<https://twitter.com/kidehen/status/1174365984515416066#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174365984515416066> ;
+	schema:name "Another example that demonstrates why #LinkedData is like wine. This too has been in place for years :) UK Ordnance Survey: http://data.ordnancesurvey.co.uk" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/OpenData#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/OpenData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> ;
+	rdfs:comment "Another example that demonstrates why #LinkedData is like wine. This too has been in place for years :) UK Ordnance Survey: http://data.ordnancesurvey.co.uk" .
+
+<https://twitter.com/kidehen/status/1174369931825209344#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174369931825209344> ;
+	schema:name """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Years ago we built a #SPARQL Query Builder called #iSPARQL to do just that. 
+
+As time went by, the simplicity of #RDFTurtle sentences reached a point where the tool was getting in the way. That's why we developed @datasniff
+ and #nanotation :)""" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/iSPARQL#this> , <https://twitter.com/hashtag/RDFTurtle#this> , <https://twitter.com/hashtag/Nanotation#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/iSPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDFTurtle#this> , <http://data.openlinksw.com/oplweb/glossary-term/Nanotation#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> ;
+	rdfs:comment """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Years ago we built a #SPARQL Query Builder called #iSPARQL to do just that. 
+
+As time went by, the simplicity of #RDFTurtle sentences reached a point where the tool was getting in the way. That's why we developed @datasniff
+ and #nanotation :)""" .
+
+<https://twitter.com/kidehen/status/1174370767183765505#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174370767183765505> ;
+	schema:name """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Visual UIs are good compliments. The key (as I see it) boils down to more #LinkedData tools that help end-users understand all the #KnowledgeGraph productivity magic they are missing out on. 
+
+The #Web isn't a fluke. It's enabled by a lot of \"deceptively simple\" magic :)""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/Web#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/Web#this> ;
+	rdfs:comment """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Visual UIs are good compliments. The key (as I see it) boils down to more #LinkedData tools that help end-users understand all the #KnowledgeGraph productivity magic they are missing out on. 
+
+The #Web isn't a fluke. It's enabled by a lot of \"deceptively simple\" magic :)""" .
+
+<https://twitter.com/kidehen/status/1174371664303394817#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174371664303394817> ;
+	schema:name """Replying to 
+@EmekaOkoye
+ 
+@AlanMorrison
+ and 4 others
+It's all about choice i.e., \"horses for courses\" . 
+
+AND works better than OR i.e., whenever end-users are forced to chose one thing over another the end result is confusion. 
+
+It took building a #SPARQL query tool to drive home the awesome power of raw #RDFTurtle sentences :)""" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/RDFTurtle#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDFTurtle#this> ;
+	rdfs:comment """Replying to 
+@EmekaOkoye
+ 
+@AlanMorrison
+ and 4 others
+It's all about choice i.e., \"horses for courses\" . 
+
+AND works better than OR i.e., whenever end-users are forced to chose one thing over another the end result is confusion. 
+
+It took building a #SPARQL query tool to drive home the awesome power of raw #RDFTurtle sentences :)""" .
+
+<https://twitter.com/kidehen/status/1174373632509906946#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174373632509906946> ;
+	schema:name "Yet another awesome example of why #LinkedData is like wine. 1. http://equipment.data.ac.uk -- equipment #KnowledgeGraph 2. http://opd.data.ac.uk -- simple setup guide for participating universities 3. https://tinyurl.com/yyd95poo -- usage demo" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/LODCloud#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ;
+	rdfs:comment "Yet another awesome example of why #LinkedData is like wine. 1. http://equipment.data.ac.uk -- equipment #KnowledgeGraph 2. http://opd.data.ac.uk -- simple setup guide for participating universities 3. https://tinyurl.com/yyd95poo -- usage demo" .
+
+<https://twitter.com/kidehen/status/1174375836880900096#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174375836880900096> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 6 others
+I forgot to add a screenshot that reveals the #SPARQL query (with #RDFTurtle in its body) generated by our #iSPARQL tool. 
+""" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/RDFTurtle#this> , <https://twitter.com/hashtag/iSPARQL#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDFTurtle#this> , <http://data.openlinksw.com/oplweb/glossary-term/iSPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 6 others
+I forgot to add a screenshot that reveals the #SPARQL query (with #RDFTurtle in its body) generated by our #iSPARQL tool. 
+""" .
+
+<https://twitter.com/kidehen/status/1174377123236196360#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174377123236196360> ;
+	schema:name """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Over the years I've come to realize this journey is identical to the pre-#Web era when the notion of using a #hyperlink as a document identifier was quite confusing until #Mosaic unleashed the Kraken -- by revealing the magic of #HTML deployed using Linked Document Principles :)""" ;
+	skos:related <https://twitter.com/hashtag/Web#this> , <https://twitter.com/hashtag/Hyperlink#this> , <https://twitter.com/hashtag/Mosaic#this> , <https://twitter.com/hashtag/HTML#this> , <http://data.openlinksw.com/oplweb/glossary-term/Web#this> , <http://data.openlinksw.com/oplweb/glossary-term/Hyperlink#this> , <http://data.openlinksw.com/oplweb/glossary-term/Mosaic#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML#this> ;
+	rdfs:comment """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Over the years I've come to realize this journey is identical to the pre-#Web era when the notion of using a #hyperlink as a document identifier was quite confusing until #Mosaic unleashed the Kraken -- by revealing the magic of #HTML deployed using Linked Document Principles :)""" .
+
+<https://twitter.com/kidehen/status/1174382278413344768#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174382278413344768> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 6 others
+Demonstrating how a #SemanticWeb handles #EntityResolution (or Disparate Entity Reconciliation) is easier using the following #LinkedData:
+
+{:i owl:sameAs :me }
+WHERE
+{
+:i foaf:nick <@kidehen
+> . 
+:me foaf:nick <@kidehen
+> . 
+foaf:nick a owl:inverseFunctionalProperty.
+}""" ;
+	skos:related <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/EntityResolution#this> , <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/EntityResolution#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 6 others
+Demonstrating how a #SemanticWeb handles #EntityResolution (or Disparate Entity Reconciliation) is easier using the following #LinkedData:
+
+{:i owl:sameAs :me }
+WHERE
+{
+:i foaf:nick <@kidehen
+> . 
+:me foaf:nick <@kidehen
+> . 
+foaf:nick a owl:inverseFunctionalProperty.
+}""" .
+
+<https://twitter.com/kidehen/status/1174382693326479360#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174382693326479360> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 6 others
+An @OpenLink
+ tweet about #EntityResolution resolution that leverages a \"deceptively simple\" #HTML5-based Data Entry Form:""" ;
+	skos:related <https://twitter.com/hashtag/EntityResolution#this> , <https://twitter.com/hashtag/HTML5#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/EntityResolution#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML5#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 6 others
+An @OpenLink
+ tweet about #EntityResolution resolution that leverages a \"deceptively simple\" #HTML5-based Data Entry Form:""" .
+
+<https://twitter.com/kidehen/status/1174430955362279424#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174430955362279424> ;
+	schema:name """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 6 others
+#screencast that demonstrate co-reference oriented reasoning & inference aided by an #Ontology:
+
+1. https://youtu.be/H0dMM8_nQuw --  owl:sameAs 
+
+2. https://youtu.be/IqmCVaDQ1fU --  owl:InverseFunctionalProperty""" ;
+	skos:related <https://twitter.com/hashtag/Screencast#this> , <https://twitter.com/hashtag/Ontology#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/EntityResolution#this> , <https://twitter.com/hashtag/ExplainableAI#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Screencast#this> , <http://data.openlinksw.com/oplweb/glossary-term/Ontology#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/EntityResolution#this> , <http://data.openlinksw.com/oplweb/glossary-term/ExplainableAI#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 6 others
+#screencast that demonstrate co-reference oriented reasoning & inference aided by an #Ontology:
+
+1. https://youtu.be/H0dMM8_nQuw --  owl:sameAs 
+
+2. https://youtu.be/IqmCVaDQ1fU --  owl:InverseFunctionalProperty""" .
+
+<https://twitter.com/kidehen/status/1174431782164471809#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174431782164471809> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 7 others
+Live #SPARQL queries demonstrating #EntityResolution informed by Relationship Type Semantics defined in an #Ontology:
+
+1. https://tinyurl.com/y3xkfp42 -- with reasoning & inference
+
+2. https://tinyurl.com/y6m76nmf -- without""" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/EntityResolution#this> , <https://twitter.com/hashtag/Ontology#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/AI#this> , <https://twitter.com/hashtag/ML#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/EntityResolution#this> , <http://data.openlinksw.com/oplweb/glossary-term/Ontology#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/AI#this> , <http://data.openlinksw.com/oplweb/glossary-term/ML#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 7 others
+Live #SPARQL queries demonstrating #EntityResolution informed by Relationship Type Semantics defined in an #Ontology:
+
+1. https://tinyurl.com/y3xkfp42 -- with reasoning & inference
+
+2. https://tinyurl.com/y6m76nmf -- without""" .
+
+<https://twitter.com/kidehen/status/1174441226533244928#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174441226533244928> ;
+	schema:name "Retweet @datapatterns:  How do we add structured data to an existing document or file?" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/Metadata#this> , <http://data.openlinksw.com/oplweb/glossary-term/EntityResolution#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML5#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment "Retweet @datapatterns:  How do we add structured data to an existing document or file?" .
+
+<https://twitter.com/kidehen/status/1174459868759113728#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174459868759113728> ;
+	schema:name "Retweet @karima_rafes:  Linked Open EP data of European Patent Office" ;
+	skos:related <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/OpenData#this> , <https://twitter.com/hashtag/DataScience#this> , <https://twitter.com/hashtag/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/OpenData#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataScience#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> ;
+	rdfs:comment "Retweet @karima_rafes:  Linked Open EP data of European Patent Office" .
+
+<https://twitter.com/kidehen/status/1174460357701722113#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174460357701722113> ;
+	schema:name "Retweet @saleem_muhamad:  Now generate real-data #SPARQL #benchmarks of your choice" ;
+	skos:related <https://twitter.com/hashtag/Benchmark#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/NoSQL#this> , <https://twitter.com/hashtag/DBMS#this> , <https://twitter.com/hashtag/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/Benchmark#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/NoSQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> ;
+	rdfs:comment "Retweet @saleem_muhamad:  Now generate real-data #SPARQL #benchmarks of your choice" .
+
+<https://twitter.com/kidehen/status/1174460533862535179#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174460533862535179> ;
+	schema:name "Retweet @karima_rafes:  HM Land Registry Open Data" ;
+	skos:related <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> ;
+	rdfs:comment "Retweet @karima_rafes:  HM Land Registry Open Data" .
+
+<https://twitter.com/kidehen/status/1174460896426516482#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174460896426516482> ;
+	schema:name """Retweet @karima_rafes:  Share, discover and reuse the #LinkedData has never been easier with http://linkedwiki.com
+
+Today, there are 544 #SPARQL queries""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/LOD#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <http://ecrm.intranet.openlinksw.com/us_mis_csv#https%3A%2F%2Ftwitter.com%2Fhashtag%2FWikidata%0AGraphDatabase%23this> , <http://ecrm.intranet.openlinksw.com/us_mis_csv#https%3A%2F%2Ftwitter.com%2Fhashtag%2FNoSQL%0ASemanticWeb%23this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/LOD#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/Wikidata#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/NoSQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ;
+	rdfs:comment """Retweet @karima_rafes:  Share, discover and reuse the #LinkedData has never been easier with http://linkedwiki.com
+
+Today, there are 544 #SPARQL queries""" .
+
+<https://twitter.com/kidehen/status/1174462290973773824#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174462290973773824> ;
+	schema:name "Using #SPARQL to produce a list of SPARQL Query Service endpoints: [1] https://tinyurl.com/yxg4fmcx -- #URIBurner [2] https://w.wiki/8an -- #Wikidata Ultimately, we need a cleaned up list of functioning endpoints for better #LODCloud exploration." ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/URIBurner#this> , <https://twitter.com/hashtag/Wikidata#this> , <https://twitter.com/hashtag/LODCloud#this> , <https://twitter.com/hashtag/NoSQL#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/URIBurner#this> , <http://data.openlinksw.com/oplweb/glossary-term/Wikidata#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/NoSQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> ;
+	rdfs:comment "Using #SPARQL to produce a list of SPARQL Query Service endpoints: [1] https://tinyurl.com/yxg4fmcx -- #URIBurner [2] https://w.wiki/8an -- #Wikidata Ultimately, we need a cleaned up list of functioning endpoints for better #LODCloud exploration." .
+
+<https://twitter.com/kidehen/status/1174482992628215809#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174482992628215809> ;
+	schema:name """Looking at some #Nigeria focused #KnowledgeGraph:
+
+[1] https://tinyurl.com/y63tmgqv -- #PivotViewer Report 
+[2] https://tinyurl.com/y352vjer -- #SPARQL Query Editor.
+
+Re #2 an #HTTP #URI provides access to query code behind the report.""" ;
+	skos:related <https://twitter.com/hashtag/Nigeria#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/PivotViewer#this> , <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/HTTP#this> , <https://twitter.com/hashtag/URI#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/Meshup#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Nigeria#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/PivotViewer#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTTP#this> , <http://data.openlinksw.com/oplweb/glossary-term/URI#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/Meshup#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Looking at some #Nigeria focused #KnowledgeGraph:
+
+[1] https://tinyurl.com/y63tmgqv -- #PivotViewer Report 
+[2] https://tinyurl.com/y352vjer -- #SPARQL Query Editor.
+
+Re #2 an #HTTP #URI provides access to query code behind the report.""" .
+
+<https://twitter.com/kidehen/status/1174485027582857216#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174485027582857216> ;
+	schema:name """Here are links to the same #SPARQL query via a basic #HTML doc.
+
+[1] https://tinyurl.com/y69wdl2z -- Query Results 
+
+[2] https://tinyurl.com/y68pkkg6 -- Query Definition 
+
+You can even use @datasniff
+ to expose a query editor too! All due to #HTTP #URI magic!""" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/HTML#this> , <https://twitter.com/hashtag/HTTP#this> , <https://twitter.com/hashtag/URI#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTTP#this> , <http://data.openlinksw.com/oplweb/glossary-term/URI#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Here are links to the same #SPARQL query via a basic #HTML doc.
+
+[1] https://tinyurl.com/y69wdl2z -- Query Results 
+
+[2] https://tinyurl.com/y68pkkg6 -- Query Definition 
+
+You can even use @datasniff
+ to expose a query editor too! All due to #HTTP #URI magic!""" .
+
+<https://twitter.com/kidehen/status/1174491992933490688#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174491992933490688> ;
+	schema:name """Replying to 
+@kidehen
+ and 
+@datasniff
+#LinkedData is also accessible to #ODBC, #JDBC, #DotNet, and #OLEDB apps and services via #SQL (using #SPASQL).
+
+Benefit? 
+You don't have to \"rip and replace\" existing investments in order to harness the magic of a #KnowledgeGraph!""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/ODBC#this> , <https://twitter.com/hashtag/JDBC#this> , <https://twitter.com/hashtag/DotNet#this> , <https://twitter.com/hashtag/OLEDB#this> , <https://twitter.com/hashtag/SQL#this> , <https://twitter.com/hashtag/SPASQL#this> , <https://twitter.com/hashtag/KnowledgeGraph!#this> , <https://twitter.com/hashtag/CDO#this> , <https://twitter.com/hashtag/CIO#this> , <https://twitter.com/hashtag/DataOps#this> , <https://twitter.com/hashtag/CTO#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/NoSQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/ODBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/JDBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/DotNet#this> , <http://data.openlinksw.com/oplweb/glossary-term/OLEDB#this> , <http://data.openlinksw.com/oplweb/glossary-term/SQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPASQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/CIO#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataOps#this> , <http://data.openlinksw.com/oplweb/glossary-term/CTO#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/NoSQL#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ and 
+@datasniff
+#LinkedData is also accessible to #ODBC, #JDBC, #DotNet, and #OLEDB apps and services via #SQL (using #SPASQL).
+
+Benefit? 
+You don't have to \"rip and replace\" existing investments in order to harness the magic of a #KnowledgeGraph!""" .
+
+<https://twitter.com/kidehen/status/1174680808315129856#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174680808315129856> ;
+	schema:name """Replying to 
+@csarven
+You meant to say:
+
+HG: And how it will be published as #LinkedData, I hope.
+@kidehen
+: I don't know any other way.
+HG: I know - I thought I would feed you that line :-)""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Replying to 
+@csarven
+You meant to say:
+
+HG: And how it will be published as #LinkedData, I hope.
+@kidehen
+: I don't know any other way.
+HG: I know - I thought I would feed you that line :-)""" .
+
+<https://twitter.com/kidehen/status/1174686636212404225#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174686636212404225> ;
+	schema:name """Replying to 
+@hyperir
+ 
+@albertmeronyo
+ and 
+@Deloitte
+@datasniff
+ also reveals the fact that @Deloitte
+ is also putting #LinkedData to practical use. For instance, their #Jobs  page deploys a #KnowledgeGraph via #HTML using terms from the #SchemaOrg #Ontology. 
+
+I can query that page using #SPARQL :) """ ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/Jobs#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/HTML#this> , <https://twitter.com/hashtag/SchemaOrg#this> , <https://twitter.com/hashtag/Ontology#this> , <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Jobs#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML#this> , <http://data.openlinksw.com/oplweb/glossary-term/SchemaOrg#this> , <http://data.openlinksw.com/oplweb/glossary-term/Ontology#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> ;
+	rdfs:comment """Replying to 
+@hyperir
+ 
+@albertmeronyo
+ and 
+@Deloitte
+@datasniff
+ also reveals the fact that @Deloitte
+ is also putting #LinkedData to practical use. For instance, their #Jobs  page deploys a #KnowledgeGraph via #HTML using terms from the #SchemaOrg #Ontology. 
+
+I can query that page using #SPARQL :) """ .
+
+<https://twitter.com/kidehen/status/1174691119755661315#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174691119755661315> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@hyperir
+ and 3 others
+#SPARQL query results page for this #Job #Offer deployed as a #KnowledgeGraph embedded in an #HTML doc:
+
+[1] http://linkeddata.uriburner.com/sparql?default-graph-uri=&query=DEFINE+get%3Asoft+%22soft%22%0D%0A%0D%0ASELECT+%28SAMPLE%28%3Fs%29+AS+%3Fsample%29+%28COUNT%281%29+AS+%3Fcount%29++%28%3Fo+AS+%3FentityType%29+%3FentityTypeLabel%0D%0AWHERE+%7B%0D%0A++++++++GRAPH+%3Chttps%3A%2F%2Fwerkenbijdeloitte.nl%2Fvacatures%2Fknowledge-graph-specialist-e777989%3E+%0D%0A+++++++++++++%7B+%3Fs+a+%3Fo.%0D%0A+++++++++++++++FILTER+%28isIRI%28%3Fs%29%29%0D%0A+++++++++++++%7D+%0D%0A++++++++%23+FILTER+%28%21+CONTAINS%28STR%28%3Fo%29%2C%22Statement%22%29%29%0D%0A+++++++GRAPH+%3Fg+%7B%3Fo+rdfs%3Alabel+%3FentityTypeLabel+.%7D++%0D%0A++++++%7D+%0D%0AGROUP+BY+%3Fo+%3FentityTypeLabel%0D%0AORDER+BY+DESC+%28%3Fcount%29%0D%0A%0D%0A&should-sponge=&format=text%2Fx-html%2Btr&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000000
+
+
+[2] http://linkeddata.uriburner.com/describe/?url=https%3A%2F%2Fwerkenbijdeloitte.nl%2Fvacatures%2Fknowledge-graph-specialist-e777989&distinct=1 -- Sample Entity Description.""" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/Job#this> , <https://twitter.com/hashtag/Offer#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/HTML#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/HR#this> , <https://twitter.com/hashtag/SSEO#this> , <https://twitter.com/hashtag/CDO#this> , <https://twitter.com/hashtag/DataOps#this> , <https://twitter.com/hashtag/SchemaOrg#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/Job#this> , <http://data.openlinksw.com/oplweb/glossary-term/Offer#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/HR#this> , <http://data.openlinksw.com/oplweb/glossary-term/SSEO#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataOps#this> , <http://data.openlinksw.com/oplweb/glossary-term/SchemaOrg#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@hyperir
+ and 3 others
+#SPARQL query results page for this #Job #Offer deployed as a #KnowledgeGraph embedded in an #HTML doc:
+
+[1] http://linkeddata.uriburner.com/sparql?default-graph-uri=&query=DEFINE+get%3Asoft+%22soft%22%0D%0A%0D%0ASELECT+%28SAMPLE%28%3Fs%29+AS+%3Fsample%29+%28COUNT%281%29+AS+%3Fcount%29++%28%3Fo+AS+%3FentityType%29+%3FentityTypeLabel%0D%0AWHERE+%7B%0D%0A++++++++GRAPH+%3Chttps%3A%2F%2Fwerkenbijdeloitte.nl%2Fvacatures%2Fknowledge-graph-specialist-e777989%3E+%0D%0A+++++++++++++%7B+%3Fs+a+%3Fo.%0D%0A+++++++++++++++FILTER+%28isIRI%28%3Fs%29%29%0D%0A+++++++++++++%7D+%0D%0A++++++++%23+FILTER+%28%21+CONTAINS%28STR%28%3Fo%29%2C%22Statement%22%29%29%0D%0A+++++++GRAPH+%3Fg+%7B%3Fo+rdfs%3Alabel+%3FentityTypeLabel+.%7D++%0D%0A++++++%7D+%0D%0AGROUP+BY+%3Fo+%3FentityTypeLabel%0D%0AORDER+BY+DESC+%28%3Fcount%29%0D%0A%0D%0A&should-sponge=&format=text%2Fx-html%2Btr&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000000
+
+
+[2] http://linkeddata.uriburner.com/describe/?url=https%3A%2F%2Fwerkenbijdeloitte.nl%2Fvacatures%2Fknowledge-graph-specialist-e777989&distinct=1 -- Sample Entity Description.""" .
+
+<https://twitter.com/kidehen/status/1174692136459087874#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174692136459087874> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@hyperir
+ and 3 others
+How did I query a #Jobs posting page just like any other Table/Graph in a conventional #DBMS? 
+
+There's a #Hyperlink for answering that question:""" ;
+	skos:related <https://twitter.com/hashtag/Jobs#this> , <https://twitter.com/hashtag/DBMS#this> , <https://twitter.com/hashtag/Hyperlink#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/DataOps#this> , <https://twitter.com/hashtag/ConnectedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Jobs#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataOps#this> , <http://data.openlinksw.com/oplweb/glossary-term/ConnectedData#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@hyperir
+ and 3 others
+How did I query a #Jobs posting page just like any other Table/Graph in a conventional #DBMS? 
+
+There's a #Hyperlink for answering that question:""" .
+
+<https://twitter.com/kidehen/status/1174694869798969344#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174694869798969344> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@danbri
+ and 10 others
+Found another #DBMS comparison that sheds light on both the #RDF and proprietary #GraphDatabase genres. 
+
+See: https://mitre.org/sites/default/files/publications/pr-15-2949-ETL-from%20-RDF-to-property-graph_0.pdf
+ [#PDF] .
+
+#SPARQL #Cypher #Gremlin #NoSQL #CDO
+#CIO #CTO #CMO
+
+/ht @atomgraphhq""" ;
+	skos:related <https://twitter.com/hashtag/DBMS#this> , <https://twitter.com/hashtag/RDF#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/PDF#this> , <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/Cypher#this> , <https://twitter.com/hashtag/Gremlin#this> , <https://twitter.com/hashtag/NoSQL#this> , <http://ecrm.intranet.openlinksw.com/us_mis_csv#https%3A%2F%2Ftwitter.com%2Fhashtag%2FCDO%0ACIO%23this> , <https://twitter.com/hashtag/CTO#this> , <https://twitter.com/hashtag/CMO#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDF#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/PDF#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/Cypher#this> , <http://data.openlinksw.com/oplweb/glossary-term/Gremlin#this> , <http://data.openlinksw.com/oplweb/glossary-term/NoSQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/CIO#this> , <http://data.openlinksw.com/oplweb/glossary-term/CTO#this> , <http://data.openlinksw.com/oplweb/glossary-term/CMO#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@danbri
+ and 10 others
+Found another #DBMS comparison that sheds light on both the #RDF and proprietary #GraphDatabase genres. 
+
+See: https://mitre.org/sites/default/files/publications/pr-15-2949-ETL-from%20-RDF-to-property-graph_0.pdf
+ [#PDF] .
+
+#SPARQL #Cypher #Gremlin #NoSQL #CDO
+#CIO #CTO #CMO
+
+/ht @atomgraphhq""" .
+
+<https://twitter.com/kidehen/status/1174709551683297280#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174709551683297280> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@danbri
+ and 11 others
+So the key issue against #RDF #GraphDatabase genre is this vague issue about pragmatism i.e., despite #LODCloud the following is theoretical?
+
+Entity Relationship Graph where every entity and entity relationship type is unambiguously identified by a #Hyperlink i.e., #LinkedData.""" ;
+	skos:related <https://twitter.com/hashtag/RDF#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/LODCloud#this> , <https://twitter.com/hashtag/Hyperlink#this> , <https://twitter.com/hashtag/LinkedData.#this> , <http://data.openlinksw.com/oplweb/glossary-term/Jobs#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataOps#this> , <http://data.openlinksw.com/oplweb/glossary-term/ConnectedData#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@danbri
+ and 11 others
+So the key issue against #RDF #GraphDatabase genre is this vague issue about pragmatism i.e., despite #LODCloud the following is theoretical?
+
+Entity Relationship Graph where every entity and entity relationship type is unambiguously identified by a #Hyperlink i.e., #LinkedData.""" .
+
+<https://twitter.com/shewardmills/status/1174218843344031747#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/shewardmills/status/1174218843344031747> ;
+	schema:name "@EU_DataPortal:  Spain" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <http://ecrm.intranet.openlinksw.com/us_mis_csv#https%3A%2F%2Ftwitter.com%2Fhashtag%2FVirtuosoRDBMS+%23this> , <https://twitter.com/hashtag/OpenData#this> , <https://twitter.com/hashtag/Dataset#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/OpenData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Dataset#this> ;
+	rdfs:comment "@EU_DataPortal:  Spain" .
+
+<https://twitter.com/shewardmills/status/1174321958068137984#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/shewardmills/status/1174321958068137984> ;
+	schema:name """Here is  @OpenLink
+ weekly recap of some of last weeks activities covering a range of topics including: #SPARQL #SQL #KnowledgeGraph #SemanticWeb #LinkedData #ODBC #JDBC #VirtuosoRDBMS demos & use cases:""" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/SQL#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/ODBC#this> , <https://twitter.com/hashtag/JDBC#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/SQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/ODBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/JDBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> ;
+	rdfs:comment """Here is  @OpenLink
+ weekly recap of some of last weeks activities covering a range of topics including: #SPARQL #SQL #KnowledgeGraph #SemanticWeb #LinkedData #ODBC #JDBC #VirtuosoRDBMS demos & use cases:""" .
+
+<https://twitter.com/shewardmills/status/1174650044773031937#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/shewardmills/status/1174650044773031937> ;
+	schema:name "@EU_DataPortal:  Iceland" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <http://ecrm.intranet.openlinksw.com/us_mis_csv#https%3A%2F%2Ftwitter.com%2Fhashtag%2FVirtuosoRDBMS+%23this> , <https://twitter.com/hashtag/OpenData#this> , <https://twitter.com/hashtag/Dataset#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/OpenData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Dataset#this> ;
+	rdfs:comment "@EU_DataPortal:  Iceland" .
+
+<https://twitter.com/EmekaOkoye/status/1174334240156266496#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/EmekaOkoye/status/1174334240156266496> ;
+	schema:name """Retweet @EmekaOkoye:  Sample model of Lagos bus stops/routes using #RDF.
+
+#SPARQL can be use to create queries on bus stops/routes and create CSV notations for #Algorithms to be applied.
+
+#LinkedData easily makes cities computational so as to improve people���s lives, city operations and
+environment. /7""" ;
+	skos:related <https://twitter.com/hashtag/RDF#this> , <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/Algorithms#this> , <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDF#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/Algorithms#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Retweet @EmekaOkoye:  Sample model of Lagos bus stops/routes using #RDF.
+
+#SPARQL can be use to create queries on bus stops/routes and create CSV notations for #Algorithms to be applied.
+
+#LinkedData easily makes cities computational so as to improve people���s lives, city operations and
+environment. /7""" .
+
+<https://twitter.com/CarolineIdehen/status/1174674003673440257#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/CarolineIdehen/status/1174674003673440257> ;
+	schema:name """@OpenLink
+ provides secure & high performance #ODBC, #JDBC, http://ADO.NET and #OLEDB drivers for #ProgressSW version 7.x all the way up to the latest #OpenEdge releases. 
+
+Obtain a Free Trial at:  https://shop.openlinksw.com""" ;
+	skos:related <https://twitter.com/hashtag/ODBC#this> , <https://twitter.com/hashtag/JDBC#this> , <https://twitter.com/hashtag/ADO.NET#this> , <https://twitter.com/hashtag/OLEDB#this> , <https://twitter.com/hashtag/ProgressSW#this> , <https://twitter.com/hashtag/OpenEdge#this> , <http://data.openlinksw.com/oplweb/glossary-term/ODBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/JDBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/ADO.NET#this> , <http://data.openlinksw.com/oplweb/glossary-term/OLEDB#this> , <http://data.openlinksw.com/oplweb/glossary-term/ProgressSW#this> , <http://data.openlinksw.com/oplweb/glossary-term/OpenEdge#this> ;
+	rdfs:comment """@OpenLink
+ provides secure & high performance #ODBC, #JDBC, http://ADO.NET and #OLEDB drivers for #ProgressSW version 7.x all the way up to the latest #OpenEdge releases. 
+
+Obtain a Free Trial at:  https://shop.openlinksw.com""" .
+
+<https://twitter.com/dan_hmills/status/1173604335806296065#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/dan_hmills/status/1173604335806296065> ;
+	schema:name "(2/3) And then copying the URL generated in your address bar. which can be bookmarked, or sent to somebody else ..." ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabases#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <https://twitter.com/hashtag/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabases#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> ;
+	rdfs:comment "(2/3) And then copying the URL generated in your address bar. which can be bookmarked, or sent to somebody else ..." .
+
+<https://twitter.com/dan_hmills/status/1173604344803057669#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/dan_hmills/status/1173604344803057669> ;
+	schema:name """(3/3)
+
+The URL can also be obtained by right clicking on the \"Permalink\" hyperlink, and copying the resulting link.""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabases#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <https://twitter.com/hashtag/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabases#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> ;
+	rdfs:comment """(3/3)
+
+The URL can also be obtained by right clicking on the \"Permalink\" hyperlink, and copying the resulting link.""" .
+
+<https://twitter.com/dan_hmills/status/1173624192459333633#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/dan_hmills/status/1173624192459333633> ;
+	schema:name """Replying to 
+@datao
+(1/2)
+This skin for /SPARQL is only for the commercial edition. Permalinks can be made in the open source edition by executing the query and changing the \"query\" parameter to  'qtxt', and copy/pasting or sending the resulting URI.""" ;
+	rdfs:comment """Replying to 
+@datao
+(1/2)
+This skin for /SPARQL is only for the commercial edition. Permalinks can be made in the open source edition by executing the query and changing the \"query\" parameter to  'qtxt', and copy/pasting or sending the resulting URI.""" .
+
+<https://twitter.com/dan_hmills/status/1173624922775703555#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/dan_hmills/status/1173624922775703555> ;
+	schema:name """Replying to 
+@dan_hmills
+ and 
+@datao
+(2/2)
+
+Sample URI that uses this alternative approach from your SPARQL endpoint: https://tinyurl.com/y3zcnoqr""" ;
+	rdfs:comment """Replying to 
+@dan_hmills
+ and 
+@datao
+(2/2)
+
+Sample URI that uses this alternative approach from your SPARQL endpoint: https://tinyurl.com/y3zcnoqr""" .
+
+<https://twitter.com/dan_hmills/status/1173638905721249794#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/dan_hmills/status/1173638905721249794> ;
+	schema:name """Replying to 
+@col1m
+ and 
+@datao
+@colm1
+ Nice. How do I share a link to this page containing a query to somebody else? 
+
+Also note that the output format selected in Virtuoso in the same manner by changing the 'output' parameter, and also by choosing a preferred output using /SPARQL's dropdown menu""" ;
+	rdfs:comment """Replying to 
+@col1m
+ and 
+@datao
+@colm1
+ Nice. How do I share a link to this page containing a query to somebody else? 
+
+Also note that the output format selected in Virtuoso in the same manner by changing the 'output' parameter, and also by choosing a preferred output using /SPARQL's dropdown menu""" .
+
+<https://twitter.com/kidehen/status/1174721625046036480#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174721625046036480> ;
+	schema:name """Replying to 
+@vrandezo
+ and 
+@chekovf
+Why is there are need to knock #SPARQL when talking about #GQL, #Cypher etc..
+
+A need to knock #RDF #DBMS and Stores when talking about a #GraphDatabase etc..
+
+Everything should live or die by its own merits or demerits.
+
+We now have a strange \"Label\" vs #Concept war raging :)""" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/GQL#this> , <https://twitter.com/hashtag/Cypher#this> , <https://twitter.com/hashtag/RDF#this> , <https://twitter.com/hashtag/DBMS#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/Concept#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/GQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/Cypher#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDF#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/Concept#this> ;
+	rdfs:comment """Replying to 
+@vrandezo
+ and 
+@chekovf
+Why is there are need to knock #SPARQL when talking about #GQL, #Cypher etc..
+
+A need to knock #RDF #DBMS and Stores when talking about a #GraphDatabase etc..
+
+Everything should live or die by its own merits or demerits.
+
+We now have a strange \"Label\" vs #Concept war raging :)""" .
+
+<https://twitter.com/kidehen/status/1174775577192148994#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174775577192148994> ;
+	schema:name "1/2: Starting page: http://scihi.org/congress-of-vienna/ which has #SPARQL behind the page: https://tinyurl.com/y4u8z3qc. This is the kind of #DataConnectivity enabled by #LinkedData - when a #Hyperlink functions as a #SuperKey." ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/DataConnectivity#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/Hyperlink#this> , <https://twitter.com/hashtag/SuperKey#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/Wikidata#this> , <https://twitter.com/hashtag/DBpedia#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataConnectivity#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/Hyperlink#this> , <http://data.openlinksw.com/oplweb/glossary-term/SuperKey#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/Wikidata#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBPedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ;
+	rdfs:comment "1/2: Starting page: http://scihi.org/congress-of-vienna/ which has #SPARQL behind the page: https://tinyurl.com/y4u8z3qc. This is the kind of #DataConnectivity enabled by #LinkedData - when a #Hyperlink functions as a #SuperKey." .
+
+<https://twitter.com/kidehen/status/1174777492663652354#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174777492663652354> ;
+	schema:name "2/2: I tweaked the #SPARQL behind the page: https://tinyurl.com/y5cfokts I published a new #Meshup using our #PivotViewer: https://tinyurl.com/y3nx96p3 -- over additional views and drill-down paths" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/Meshup#this> , <https://twitter.com/hashtag/PivotViewer#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/Wikidata#this> , <https://twitter.com/hashtag/DBpedia#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <https://twitter.com/hashtag/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/Meshup#this> , <http://data.openlinksw.com/oplweb/glossary-term/PivotViewer#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/Wikidata#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBPedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> ;
+	rdfs:comment "2/2: I tweaked the #SPARQL behind the page: https://tinyurl.com/y5cfokts I published a new #Meshup using our #PivotViewer: https://tinyurl.com/y3nx96p3 -- over additional views and drill-down paths" .
+
+<https://twitter.com/kidehen/status/1174786137694621701#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1174786137694621701> ;
+	schema:name """More #LinkedData utility demos from the UK Ordnance Survey. @datasniff
+ also demonstrates use of #HTML5-based #StructuredData islands using #RDFa.""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/HTML5#this> , <https://twitter.com/hashtag/StructuredData#this> , <https://twitter.com/hashtag/RDFa#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <http://ecrm.intranet.openlinksw.com/us_mis_csv#https%3A%2F%2Ftwitter.com%2Fhashtag%2FCDO%0ADataOps%23this> , <https://twitter.com/hashtag/ConnectedData#this> , <https://twitter.com/hashtag/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/HTML5#this> , <http://data.openlinksw.com/oplweb/glossary-term/StructuredData#this> , <http://data.openlinksw.com/oplweb/glossary-term/RDFa#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataOps#this> , <http://data.openlinksw.com/oplweb/glossary-term/ConnectedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> ;
+	rdfs:comment """More #LinkedData utility demos from the UK Ordnance Survey. @datasniff
+ also demonstrates use of #HTML5-based #StructuredData islands using #RDFa.""" .
+
+<https://twitter.com/kidehen/status/1175079038223888387#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175079038223888387> ;
+	schema:name """Replying to 
+@EmekaOkoye
+ 
+@AlanMorrison
+ and 4 others
+That article has a point of unclarity the permeates the entire piece. For instance, the term \"semantics\" is disconnected from \"context\". 
+
+It is the fidelity of \"Entity Relationship Type Semantics\" that determines the contextual richness of any content.""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ;
+	rdfs:comment """Replying to 
+@EmekaOkoye
+ 
+@AlanMorrison
+ and 4 others
+That article has a point of unclarity the permeates the entire piece. For instance, the term \"semantics\" is disconnected from \"context\". 
+
+It is the fidelity of \"Entity Relationship Type Semantics\" that determines the contextual richness of any content.""" .
+
+<https://twitter.com/kidehen/status/1175120363249983488#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175120363249983488> ;
+	schema:name """Replying to 
+@ayooladejo
+Tip:
+Mentioning folks using their #DBpedia ID provides an entry point into a world of discovery provided by the #LODCloud #KnowledgeGraph.
+Examples:
+1. Kunle Afolayan 
+2. Genevieve_Nnaji """ ;
+	skos:related <https://twitter.com/hashtag/DBpedia#this> , <https://twitter.com/hashtag/LODCloud#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/Nollywood#this> , <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBPedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/Nollywood#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> ;
+	rdfs:comment """Replying to 
+@ayooladejo
+Tip:
+Mentioning folks using their #DBpedia ID provides an entry point into a world of discovery provided by the #LODCloud #KnowledgeGraph.
+Examples:
+1. Kunle Afolayan 
+2. Genevieve_Nnaji """ ;
+	schema:name "Simple #SocialNetwork Graph Analytics using our #VirtuosoRDBMS which combines the best of #SPARQL and #SQL. Sampling of connections centered around my #WebID combined with the contact network size per connected individual:" ;
+	skos:related <https://twitter.com/hashtag/SocialNetwork#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/SQL#this> , <https://twitter.com/hashtag/WebID#this> , <http://data.openlinksw.com/oplweb/glossary-term/SocialNetwork#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/SQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/WebID#this> ;
+	rdfs:comment "Simple #SocialNetwork Graph Analytics using our #VirtuosoRDBMS which combines the best of #SPARQL and #SQL. Sampling of connections centered around my #WebID combined with the contact network size per connected individual:" .
+
+<https://twitter.com/kidehen/status/1175450712597245952#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175450712597245952> ;
+	schema:name """Retweet Linked Data Patterns
+@datapatterns
+Follow Your Nose - How do we find additional relevant data from the web?""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> ;
+	rdfs:comment """Retweet Linked Data Patterns
+@datapatterns
+Follow Your Nose - How do we find additional relevant data from the web?""" .
+
+<https://twitter.com/kidehen/status/1175500571266166786#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175500571266166786> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@EmekaOkoye
+ and 5 others
+That article has a point of unclarity that permeates the entire piece. For instance, the term \"semantics\" is disconnected from \"context\". 
+
+It is the fidelity of \"Entity Relationship Type Semantics\" that determines the contextual richness of any content.""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@EmekaOkoye
+ and 5 others
+That article has a point of unclarity that permeates the entire piece. For instance, the term \"semantics\" is disconnected from \"context\". 
+
+It is the fidelity of \"Entity Relationship Type Semantics\" that determines the contextual richness of any content.""" .
+
+<https://twitter.com/kidehen/status/1175541715672940544#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175541715672940544> ;
+	schema:name "Looking at the #DBWik, a #KnowledgeGraph constructed from thousands of Wikis. See: http://dbkwik.webdatacommons.org" ;
+	skos:related <https://twitter.com/hashtag/DBWik#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/CDO#this> , <https://twitter.com/hashtag/DataOps#this> , <https://twitter.com/hashtag/LODCloud#this> , <https://twitter.com/hashtag/DBpedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBWik#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/CDO#this> , <http://data.openlinksw.com/oplweb/glossary-term/DataOps#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBPedia#this> ;
+	rdfs:comment "Looking at the #DBWik, a #KnowledgeGraph constructed from thousands of Wikis. See: http://dbkwik.webdatacommons.org" .
+
+<https://twitter.com/kidehen/status/1175542980465369089#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175542980465369089> ;
+	schema:name """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Twitter thread management #UI has introduced some confusion here. 
+
+My comments where directed toward the other post shared by @EmekaOkoye
+.
+
+As for Multiple Models: 
+I am anti-monoculture by nature so I have nothing against their existence and coherent use :)""" ;
+	skos:related <https://twitter.com/hashtag/UI#this> , <http://data.openlinksw.com/oplweb/glossary-term/UI#this> ;
+	rdfs:comment """Replying to 
+@AlanMorrison
+ 
+@EmekaOkoye
+ and 4 others
+Twitter thread management #UI has introduced some confusion here. 
+
+My comments where directed toward the other post shared by @EmekaOkoye
+.
+
+As for Multiple Models: 
+I am anti-monoculture by nature so I have nothing against their existence and coherent use :)""" .
+
+<https://twitter.com/kidehen/status/1175544164005634048#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175544164005634048> ;
+	schema:name """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 5 others
+The post identified by the URL: https://simplea.com/Articles/structure-and-semantics-for-context
+, is the target of my comments about artificial separation of \"semantics\" and \"context\". 
+
+\"Entity Relationship Type Semantics\" are the keys to \"Content Context\"""" ;
+	skos:related <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> ;
+	rdfs:comment """Replying to 
+@kidehen
+ 
+@AlanMorrison
+ and 5 others
+The post identified by the URL: https://simplea.com/Articles/structure-and-semantics-for-context
+, is the target of my comments about artificial separation of \"semantics\" and \"context\". 
+
+\"Entity Relationship Type Semantics\" are the keys to \"Content Context\"""" .
+
+<https://twitter.com/kidehen/status/1175587043801468928#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175587043801468928> .
+
+<https://twitter.com/kidehen/status/1175587343304200192#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/kidehen/status/1175587343304200192> ;
+	schema:name """Retweet Margaret Warren
+@ImageSnippets
+When you search for images with Imagesnippets, it demonstrates inference and graphs that have been built with inference from #dbpedia and #wikidata @wikidata
+ @dbpedia""" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/SemanticWeb#this> , <https://twitter.com/hashtag/Wikidata#this> , <https://twitter.com/hashtag/DBPedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/SemanticWeb#this> , <http://data.openlinksw.com/oplweb/glossary-term/Wikidata#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBPedia#this> ;
+	rdfs:comment """Retweet Margaret Warren
+@ImageSnippets
+When you search for images with Imagesnippets, it demonstrates inference and graphs that have been built with inference from #dbpedia and #wikidata @wikidata
+ @dbpedia""" .
+
+<https://twitter.com/OpenLink/status/1174743452023701505#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/OpenLink/status/1174743452023701505> ;
+	schema:name "What are the basics of #LinkedData?" ;
+	skos:related <https://twitter.com/hashtag/LinkedData#this> , <https://twitter.com/hashtag/KnowledgeGraph#this> , <http://data.openlinksw.com/oplweb/glossary-term/LinkedData#this> , <http://data.openlinksw.com/oplweb/glossary-term/KnowledgeGraph#this> ;
+	rdfs:comment "What are the basics of #LinkedData?" .
+
+<https://twitter.com/OpenLink/status/1175032849717768198#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/OpenLink/status/1175032849717768198> ;
+	schema:name "Making an #ODBC Connection from macOS to #PostgreSQL on #Azure:" ;
+	skos:related <https://twitter.com/hashtag/ODBC#this> , <https://twitter.com/hashtag/PostgreSQL#this> , <https://twitter.com/hashtag/Azure#this> , <http://data.openlinksw.com/oplweb/glossary-term/ODBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/PostgreSQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/Azure#this> ;
+	rdfs:comment "Making an #ODBC Connection from macOS to #PostgreSQL on #Azure:" .
+
+<https://twitter.com/EmekaOkoye/status/1174013688401006592#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/EmekaOkoye/status/1174013688401006592> ;
+	schema:name """Retweet Emeka Azuka Okoye
+@EmekaOkoye
+Let me share what i learnt from one of my mentors @kidehen
+ eons ago:
+
+Developers are not real world problem domain experts. Hence their orientation towards building rip and replace apps.""" ;
+	rdfs:comment """Retweet Emeka Azuka Okoye
+@EmekaOkoye
+Let me share what i learnt from one of my mentors @kidehen
+ eons ago:
+
+Developers are not real world problem domain experts. Hence their orientation towards building rip and replace apps.""" .
+
+<https://twitter.com/OpenLink/status/1151982237245673478#> a schema:CreativeWork , foaf:Document ;
+	schema:url <https://twitter.com/OpenLink/status/1151982237245673478> ;
+	schema:name "Q: Can I use both #SPARQL and #SQL as query languages for operating on data managed by a #VirtuosoRDBMS instance?" ;
+	skos:related <https://twitter.com/hashtag/SPARQL#this> , <https://twitter.com/hashtag/SQL#this> , <https://twitter.com/hashtag/VirtuosoRDBMS#this> , <https://twitter.com/hashtag/DBpedia#this> , <https://twitter.com/hashtag/Wikidata#this> , <https://twitter.com/hashtag/LODCloud#this> , <https://twitter.com/hashtag/ODBC#this> , <https://twitter.com/hashtag/JDBC#this> , <https://twitter.com/hashtag/DotNET#this> , <https://twitter.com/hashtag/GraphDatabase#this> , <https://twitter.com/hashtag/NoSQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/SPARQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/SQL#this> , <http://data.openlinksw.com/oplweb/glossary-term/VirtuosoRDBMS#this> , <http://data.openlinksw.com/oplweb/glossary-term/DBPedia#this> , <http://data.openlinksw.com/oplweb/glossary-term/Wikidata#this> , <http://data.openlinksw.com/oplweb/glossary-term/LODCloud#this> , <http://data.openlinksw.com/oplweb/glossary-term/ODBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/JDBC#this> , <http://data.openlinksw.com/oplweb/glossary-term/DotNet#this> , <http://data.openlinksw.com/oplweb/glossary-term/GraphDatabase#this> , <http://data.openlinksw.com/oplweb/glossary-term/NoSQL#this> ;
+	rdfs:comment "Q: Can I use both #SPARQL and #SQL as query languages for operating on data managed by a #VirtuosoRDBMS instance?" .
