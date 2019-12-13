@@ -1,0 +1,117 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix amazon: <http://www.openlinksw.com/schemas/amazon#> .
+
+
+<https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A091457225L0S2C9HRYE&url=%2FApple-iPhone-XR-64GB-exclusively%2Fdp%2FB07K97BQDF%2Fref%3Dsr_1_1_sspa%3Fkeywords%3DiPhone%26qid%3D1570590486%26sr%3D8-1-spons%26psc%3D1&qualifier=1570590486&id=2054689904319025&widgetName=sp_atf> a amazon:Product ;
+	rdfs:label "Simple Mobile Prepaid - Apple iPhone XR (64GB) - Red" ;
+	amazon:hasListPrice "$749.99"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "3.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "31" ;
+	amazon:hasScore "108.5" ;
+	amazon:detailPageURL <https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A091457225L0S2C9HRYE&url=%2FApple-iPhone-XR-64GB-exclusively%2Fdp%2FB07K97BQDF%2Fref%3Dsr_1_1_sspa%3Fkeywords%3DiPhone%26qid%3D1570590486%26sr%3D8-1-spons%26psc%3D1&qualifier=1570590486&id=2054689904319025&widgetName=sp_atf> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B07K97BQDF" .
+
+<https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A09142362PXSYRA3BBMZO&url=%2FApple-iPhone-6S-32GB-Prepaid%2Fdp%2FB07K8L56DR%2Fref%3Dsr_1_2_sspa%3Fkeywords%3DiPhone%26qid%3D1570590486%26sr%3D8-2-spons%26psc%3D1&qualifier=1570590486&id=2054689904319025&widgetName=sp_atf> a amazon:Product ;
+	rdfs:label "Simple Mobile Prepaid - Apple iPhone 6s (32GB) - Space Gray" ;
+	amazon:hasListPrice "$199.99"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "3.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "48" ;
+	amazon:hasScore "177.6" ;
+	amazon:detailPageURL <https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A09142362PXSYRA3BBMZO&url=%2FApple-iPhone-6S-32GB-Prepaid%2Fdp%2FB07K8L56DR%2Fref%3Dsr_1_2_sspa%3Fkeywords%3DiPhone%26qid%3D1570590486%26sr%3D8-2-spons%26psc%3D1&qualifier=1570590486&id=2054689904319025&widgetName=sp_atf> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B07K8L56DR" .
+
+<https://www.amazon.com/Simple-Mobile-Apple-iPhone-Black/dp/B07XSS3Z9J/ref=sr_1_3?keywords=iPhone&qid=1570590486&sr=8-3> a amazon:Product ;
+	rdfs:label "Simple Mobile - Apple iPhone 11 (64GB) - Black" ;
+	amazon:hasListPrice "$699.00"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "2.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "3" ;
+	amazon:hasScore "7.5" ;
+	amazon:detailPageURL <https://www.amazon.com/Simple-Mobile-Apple-iPhone-Black/dp/B07XSS3Z9J/ref=sr_1_3?keywords=iPhone&qid=1570590486&sr=8-3> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B07XSS3Z9J" .
+
+<https://www.amazon.com/Simple-Mobile-Apple-iPhone-Space/dp/B07XSRMKHY/ref=sr_1_4?keywords=iPhone&qid=1570590486&sr=8-4> a amazon:Product ;
+	rdfs:label "Simple Mobile - Apple iPhone 11 Pro (64GB) - Space Gray" ;
+	amazon:hasListPrice "$999.00"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "0" ;
+	amazon:hasScore "0" ;
+	amazon:detailPageURL <https://www.amazon.com/Simple-Mobile-Apple-iPhone-Space/dp/B07XSRMKHY/ref=sr_1_4?keywords=iPhone&qid=1570590486&sr=8-4> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B07XSRMKHY" .
+
+<https://www.amazon.com/Simple-Mobile-Apple-iPhone-Space/dp/B07XSR733W/ref=sr_1_5?keywords=iPhone&qid=1570590486&sr=8-5> a amazon:Product ;
+	rdfs:label "Simple Mobile - Apple iPhone 11 Pro Max (64GB) - Space Gray" ;
+	amazon:hasListPrice "$1,099.00"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "4" ;
+	amazon:hasScore "20" ;
+	amazon:detailPageURL <https://www.amazon.com/Simple-Mobile-Apple-iPhone-Space/dp/B07XSR733W/ref=sr_1_5?keywords=iPhone&qid=1570590486&sr=8-5> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B07XSR733W" .
+
+<https://www.amazon.com/Apple-iPhone-GSM-Unlocked-64GB/dp/B0775MV9K2/ref=sr_1_6?keywords=iPhone&qid=1570590486&sr=8-6> a amazon:Product ;
+	rdfs:label "Apple iPhone 8, 64GB, Space Gray - Fully Unlocked (Renewed)" ;
+	amazon:hasListPrice "$373.99"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "1086" ;
+	amazon:hasScore "4344" ;
+	amazon:detailPageURL <https://www.amazon.com/Apple-iPhone-GSM-Unlocked-64GB/dp/B0775MV9K2/ref=sr_1_6?keywords=iPhone&qid=1570590486&sr=8-6> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B0775MV9K2" .
+
+<https://www.amazon.com/Apple-iPhone-6S-Unlocked-64GB/dp/B01CR1FQMG/ref=sr_1_7?keywords=iPhone&qid=1570590486&sr=8-7> a amazon:Product ;
+	rdfs:label "Apple iPhone 6S, GSM Unlocked, 64GB - Rose Gold (Renewed)" ;
+	amazon:hasListPrice "$164.99"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "3.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "1152" ;
+	amazon:hasScore "4377.6" ;
+	amazon:detailPageURL <https://www.amazon.com/Apple-iPhone-6S-Unlocked-64GB/dp/B01CR1FQMG/ref=sr_1_7?keywords=iPhone&qid=1570590486&sr=8-7> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:hasPreDiscountPrice "$659.99"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:ASIN "B01CR1FQMG" .
+
+<https://www.amazon.com/Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_8?keywords=iPhone&qid=1570590486&sr=8-8> a amazon:Product ;
+	rdfs:label "Apple iPhone XR, 64GB, White - Fully Unlocked (Renewed)" ;
+	amazon:hasListPrice "$564.99"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "4.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "432" ;
+	amazon:hasScore "1857.6" ;
+	amazon:detailPageURL <https://www.amazon.com/Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_8?keywords=iPhone&qid=1570590486&sr=8-8> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B07P978C2R" .
+
+<https://www.amazon.com/Apple-iPhone-AT-32GB-Renewed/dp/B06XSHHZ62/ref=sr_1_9?keywords=iPhone&qid=1570590486&sr=8-9> a amazon:Product ;
+	rdfs:label "Apple iPhone 7, 32GB, Rose Gold - For AT&T (Renewed)" ;
+	amazon:hasListPrice "$179.99"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "3.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "3683" ;
+	amazon:hasScore "13258.8" ;
+	amazon:detailPageURL <https://www.amazon.com/Apple-iPhone-AT-32GB-Renewed/dp/B06XSHHZ62/ref=sr_1_9?keywords=iPhone&qid=1570590486&sr=8-9> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B06XSHHZ62" .
+
+<https://www.amazon.com/Apple-iPhone-Fully-Unlocked-64GB/dp/B06XR8G1TX/ref=sr_1_10?keywords=iPhone&qid=1570590486&sr=8-10> a amazon:Product ;
+	rdfs:label "Apple iPhone 6S, 64GB, Space Gray - Fully Unlocked (Renewed)" ;
+	amazon:hasListPrice "$169.99"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:hasRating "3.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	amazon:totalReviews "5338" ;
+	amazon:hasScore "19216.8" ;
+	amazon:detailPageURL <https://www.amazon.com/Apple-iPhone-Fully-Unlocked-64GB/dp/B06XR8G1TX/ref=sr_1_10?keywords=iPhone&qid=1570590486&sr=8-10> ;
+	amazon:isSponsored "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:isDiscounted "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	amazon:ASIN "B06XR8G1TX" .

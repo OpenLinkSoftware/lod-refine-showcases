@@ -1,0 +1,172 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column fix at index 2 based on column price using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fix",
+    "columnInsertIndex": 2,
+    "baseColumnName": "price",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column fix",
+    "columnName": "fix"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "amazon",
+          "uri": "http://www.openlinksw.com/schemas/amazon#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "url",
+          "rdfTypes": [
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#Product",
+              "curie": "amazon:Product"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#hasListPrice",
+              "curie": "amazon:hasListPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "price"
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#hasRating",
+              "curie": "amazon:hasRating",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "rating"
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#totalReviews",
+              "curie": "amazon:totalReviews",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "reviews"
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#hasScore",
+              "curie": "amazon:hasScore",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "score"
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#detailPageURL",
+              "curie": "amazon:detailPageURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#isSponsored",
+              "curie": "amazon:isSponsored",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "sponsored"
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#isDiscounted",
+              "curie": "amazon:isDiscounted",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "discounted"
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#hasPreDiscountPrice",
+              "curie": "amazon:hasPreDiscountPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "before_discount"
+              }
+            },
+            {
+              "uri": "http://www.openlinksw.com/schemas/amazon#ASIN",
+              "curie": "amazon:ASIN",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "asin"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
